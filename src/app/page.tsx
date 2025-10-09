@@ -7,6 +7,7 @@ import { Progress } from '@/components/ui/progress'
 import { Badge } from '@/components/ui/badge'
 import { Trophy, Clock, Target, Brain, BookOpen, Code, Palette, Globe, Star, Zap, Award, TrendingUp } from 'lucide-react'
 import { cn } from '@/lib/utils'
+import { leaderboardUtils, type LeaderboardEntry } from '@/lib/leaderboard'
 import { Navigation } from '@/components/navigation'
 import { HeroSection } from '@/components/hero-section'
 import { FeaturesSection } from '@/components/features-section'
@@ -31,21 +32,13 @@ interface GameStats {
   streak: number
 }
 
-interface LeaderboardEntry {
-  rank: number
-  name: string
-  score: number
-  category: string
-  timestamp: string
-}
-
 const categories = [
-  { id: 'science', name: 'Science', icon: Brain, color: 'bg-purple-500' },
-  { id: 'math', name: 'Mathematics', icon: Target, color: 'bg-blue-500' },
-  { id: 'history', name: 'History', icon: BookOpen, color: 'bg-amber-500' },
-  { id: 'programming', name: 'Programming', icon: Code, color: 'bg-green-500' },
-  { id: 'art', name: 'Art & Design', icon: Palette, color: 'bg-pink-500' },
-  { id: 'geography', name: 'Geography', icon: Globe, color: 'bg-cyan-500' }
+  { id: 'science', name: 'Science', icon: Brain, color: 'bg-gray-700' },
+  { id: 'math', name: 'Mathematics', icon: Target, color: 'bg-gray-600' },
+  { id: 'history', name: 'History', icon: BookOpen, color: 'bg-gray-800' },
+  { id: 'programming', name: 'Programming', icon: Code, color: 'bg-gray-700' },
+  { id: 'art', name: 'Art & Design', icon: Palette, color: 'bg-gray-600' },
+  { id: 'geography', name: 'Geography', icon: Globe, color: 'bg-gray-800' }
 ]
 
 const sampleQuestions: Question[] = [
@@ -117,6 +110,11 @@ export default function Home() {
   const [questions, setQuestions] = useState<Question[]>([])
   const [isLoading, setIsLoading] = useState(false)
 
+  // Load leaderboard from localStorage on mount
+  useEffect(() => {
+    setLeaderboard(leaderboardUtils.getLeaderboard())
+  }, [])
+
   useEffect(() => {
     if (gameState === 'playing' && timeLeft > 0 && !showResult) {
       const timer = setTimeout(() => setTimeLeft(timeLeft - 1), 1000)
@@ -125,10 +123,6 @@ export default function Home() {
       handleAnswer(selectedAnswer ?? -1)
     }
   }, [timeLeft, gameState, showResult])
-
-  useEffect(() => {
-    fetchLeaderboard()
-  }, [])
 
   const fetchQuestions = async (categoryId: string) => {
     setIsLoading(true)
@@ -151,16 +145,8 @@ export default function Home() {
     }
   }
 
-  const fetchLeaderboard = async () => {
-    try {
-      const response = await fetch('/api/leaderboard')
-      const data = await response.json()
-      if (data.success) {
-        setLeaderboard(data.data)
-      }
-    } catch (error) {
-      console.error('Failed to fetch leaderboard:', error)
-    }
+  const refreshLeaderboard = () => {
+    setLeaderboard(leaderboardUtils.getLeaderboard())
   }
 
   const startGame = async (categoryId: string) => {
@@ -213,27 +199,18 @@ export default function Home() {
     setGameState('results')
   }
 
-  const saveToLeaderboard = async () => {
+  const saveToLeaderboard = () => {
     if (!playerName.trim()) return
     
     try {
-      const response = await fetch('/api/leaderboard', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          name: playerName,
-          score: gameStats.score,
-          category: categories.find(c => c.id === selectedCategory)?.name || 'Mixed'
-        })
-      })
+      const updatedLeaderboard = leaderboardUtils.saveEntry(
+        playerName,
+        gameStats.score,
+        categories.find(c => c.id === selectedCategory)?.name || 'Mixed'
+      )
       
-      const data = await response.json()
-      if (data.success) {
-        setLeaderboard(data.leaderboard)
-        setGameState('leaderboard')
-      }
+      setLeaderboard(updatedLeaderboard)
+      setGameState('leaderboard')
     } catch (error) {
       console.error('Failed to save score:', error)
       // Fallback to local state
@@ -270,6 +247,8 @@ export default function Home() {
     setTimeLeft(30)
     setShowResult(false)
     setPlayerName('')
+    // Refresh leaderboard when returning to menu
+    refreshLeaderboard()
   }
 
   const currentQuestion = questions[currentQuestionIndex]
@@ -285,11 +264,11 @@ export default function Home() {
         <section id="play" className="py-20 bg-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <Badge className="mb-4 px-4 py-2 bg-purple-100 text-purple-700">
+              <Badge className="mb-4 px-4 py-2 bg-gray-100 text-gray-700">
                 Choose Your Challenge
               </Badge>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                <span className="text-gray-800">
                   Select a Category
                 </span>
               </h2>
@@ -313,7 +292,7 @@ export default function Home() {
                     <CardContent>
                       <Button 
                         onClick={() => startGame(category.id)}
-                        className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 rounded-xl transition-all duration-300"
+                        className="w-full bg-gray-800 hover:bg-gray-900 text-white font-semibold py-3 rounded-xl transition-all duration-300"
                       >
                         Start Quiz
                       </Button>
@@ -332,11 +311,11 @@ export default function Home() {
         <section id="leaderboard" className="py-20 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
-              <Badge className="mb-4 px-4 py-2 bg-purple-100 text-purple-700">
+              <Badge className="mb-4 px-4 py-2 bg-gray-100 text-gray-700">
                 Rankings
               </Badge>
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+                <span className="text-gray-800">
                   Global Leaderboard
                 </span>
               </h2>
@@ -354,7 +333,7 @@ export default function Home() {
                         const element = document.getElementById('play')
                         if (element) element.scrollIntoView({ behavior: 'smooth' })
                       }}
-                      className="mt-4 bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+                      className="mt-4 bg-gray-800 hover:bg-gray-900"
                     >
                       Start Playing
                     </Button>
@@ -364,19 +343,19 @@ export default function Home() {
                 leaderboard.map((entry) => (
                   <Card key={entry.rank} className={cn(
                     "bg-white/90 backdrop-blur-sm border-0 transition-all duration-300 hover:shadow-lg",
-                    entry.rank === 1 && "ring-2 ring-yellow-400 bg-gradient-to-r from-yellow-50 to-amber-50",
-                    entry.rank === 2 && "ring-2 ring-gray-300 bg-gradient-to-r from-gray-50 to-slate-50",
-                    entry.rank === 3 && "ring-2 ring-orange-400 bg-gradient-to-r from-orange-50 to-amber-50"
+                    entry.rank === 1 && "ring-2 ring-gray-400 bg-gray-50",
+                    entry.rank === 2 && "ring-2 ring-gray-300 bg-gray-100",
+                    entry.rank === 3 && "ring-2 ring-gray-200 bg-white"
                   )}>
                     <CardContent className="p-4">
                       <div className="flex items-center justify-between">
                         <div className="flex items-center gap-4">
                           <div className={cn(
                             "w-10 h-10 rounded-full flex items-center justify-center font-bold text-white",
-                            entry.rank === 1 && "bg-gradient-to-r from-yellow-400 to-amber-500",
-                            entry.rank === 2 && "bg-gradient-to-r from-gray-400 to-slate-500",
-                            entry.rank === 3 && "bg-gradient-to-r from-orange-400 to-amber-500",
-                            entry.rank > 3 && "bg-gray-400"
+                            entry.rank === 1 && "bg-gray-800",
+                            entry.rank === 2 && "bg-gray-700",
+                            entry.rank === 3 && "bg-gray-600",
+                            entry.rank > 3 && "bg-gray-500"
                           )}>
                             {entry.rank}
                           </div>
@@ -386,7 +365,7 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="text-right">
-                          <p className="text-2xl font-bold text-purple-600">{entry.score}</p>
+                          <p className="text-2xl font-bold text-gray-800">{entry.score}</p>
                           <p className="text-xs text-gray-500">points</p>
                         </div>
                       </div>
@@ -406,10 +385,10 @@ export default function Home() {
   // Game view (existing game logic)
   if (gameState === 'playing' && isLoading) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 p-4 flex items-center justify-center">
+      <div className="min-h-screen bg-gray-50 p-4 flex items-center justify-center">
         <Card className="bg-white/90 backdrop-blur-sm shadow-xl border-0">
           <CardContent className="p-8 text-center">
-            <div className="w-16 h-16 border-4 border-purple-200 border-t-purple-600 rounded-full animate-spin mx-auto mb-4"></div>
+            <div className="w-16 h-16 border-4 border-gray-200 border-t-gray-800 rounded-full animate-spin mx-auto mb-4"></div>
             <p className="text-lg font-semibold text-gray-700">Loading questions...</p>
           </CardContent>
         </Card>
@@ -419,7 +398,7 @@ export default function Home() {
 
   if (gameState === 'playing' && currentQuestion) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 p-4">
+      <div className="min-h-screen bg-gray-50 p-4">
         <Navigation />
         <div className="max-w-4xl mx-auto pt-24">
           <div className="mb-8">
@@ -476,9 +455,9 @@ export default function Home() {
                     disabled={showResult}
                     className={cn(
                       "w-full p-4 text-left justify-start h-auto py-4 px-6 rounded-xl transition-all duration-300 font-medium",
-                      showResult && isCorrect && "bg-green-500 hover:bg-green-500 text-white",
-                      showResult && isSelected && !isCorrect && "bg-red-500 hover:bg-red-500 text-white",
-                      !showResult && "bg-gray-50 hover:bg-purple-50 hover:border-purple-300 border-2 border-gray-200 text-gray-700"
+                      showResult && isCorrect && "bg-gray-700 hover:bg-gray-700 text-white",
+                      showResult && isSelected && !isCorrect && "bg-gray-400 hover:bg-gray-400 text-white",
+                      !showResult && "bg-gray-50 hover:bg-gray-100 hover:border-gray-300 border-2 border-gray-200 text-gray-700"
                     )}
                   >
                     <div className="flex items-center justify-between w-full">
@@ -502,78 +481,94 @@ export default function Home() {
       : 0
 
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 p-4 flex items-center justify-center">
+      <div className="min-h-screen bg-white flex flex-col">
         <Navigation />
-        <Card className="w-full max-w-md bg-white/90 backdrop-blur-sm shadow-xl border-0">
-          <CardHeader className="text-center">
-            <div className="w-20 h-20 bg-gradient-to-r from-purple-500 to-blue-500 rounded-full flex items-center justify-center mx-auto mb-4">
-              <Trophy className="w-10 h-10 text-white" />
-            </div>
-            <CardTitle className="text-2xl font-bold text-gray-800">Quiz Complete!</CardTitle>
-            <CardDescription>Great job! Here are your results</CardDescription>
-          </CardHeader>
-          <CardContent className="space-y-4">
-            <div className="grid grid-cols-2 gap-4">
-              <div className="text-center p-3 bg-purple-50 rounded-xl">
-                <p className="text-2xl font-bold text-purple-600">{gameStats.score}</p>
-                <p className="text-sm text-gray-600">Total Score</p>
+        <div className="flex-1 flex items-center justify-center p-4">
+          <div className="w-full max-w-lg">
+            {/* Header */}
+            <div className="text-center mb-8">
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-black rounded-full mb-4">
+                <Trophy className="w-8 h-8 text-white" />
               </div>
-              <div className="text-center p-3 bg-blue-50 rounded-xl">
-                <p className="text-2xl font-bold text-blue-600">{accuracy}%</p>
-                <p className="text-sm text-gray-600">Accuracy</p>
-              </div>
-            </div>
-            
-            <div className="space-y-2">
-              <div className="flex justify-between items-center">
-                <span className="text-gray-600">Correct Answers</span>
-                <span className="font-semibold">{gameStats.correctAnswers}/{gameStats.totalQuestions}</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-gray-600">Best Streak</span>
-                <span className="font-semibold">{gameStats.streak}</span>
-              </div>
+              <h1 className="text-3xl font-bold text-black mb-2">Quiz Complete!</h1>
+              <p className="text-gray-600">Here's how you performed</p>
             </div>
 
-            <div className="space-y-3">
-              <input
-                type="text"
-                placeholder="Enter your name"
-                value={playerName}
-                onChange={(e) => setPlayerName(e.target.value)}
-                className="w-full px-4 py-2 border-2 border-gray-200 rounded-xl focus:border-purple-400 focus:outline-none"
-                maxLength={20}
-              />
-              <Button 
-                onClick={saveToLeaderboard}
-                disabled={!playerName.trim()}
-                className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold py-3 rounded-xl"
-              >
-                Save to Leaderboard
-              </Button>
-              <Button 
-                onClick={resetGame}
-                variant="outline"
-                className="w-full"
-              >
-                Back to Menu
-              </Button>
+            {/* Results Card */}
+            <div className="bg-white border-2 border-black rounded-lg p-8 shadow-xl">
+              {/* Score Display */}
+              <div className="text-center mb-8">
+                <div className="text-5xl font-bold text-black mb-2">{gameStats.score}</div>
+                <div className="text-lg text-gray-600">Total Points</div>
+              </div>
+
+              {/* Stats Grid */}
+              <div className="grid grid-cols-3 gap-4 mb-8">
+                <div className="text-center p-4 bg-gray-50 border border-gray-300 rounded">
+                  <div className="text-2xl font-bold text-black">{accuracy}%</div>
+                  <div className="text-xs text-gray-600 mt-1">Accuracy</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 border border-gray-300 rounded">
+                  <div className="text-2xl font-bold text-black">{gameStats.correctAnswers}/{gameStats.totalQuestions}</div>
+                  <div className="text-xs text-gray-600 mt-1">Correct</div>
+                </div>
+                <div className="text-center p-4 bg-gray-50 border border-gray-300 rounded">
+                  <div className="text-2xl font-bold text-black">{gameStats.streak}</div>
+                  <div className="text-xs text-gray-600 mt-1">Best Streak</div>
+                </div>
+              </div>
+
+              {/* Divider */}
+              <div className="border-t border-gray-300 mb-6"></div>
+
+              {/* Name Input */}
+              <div className="mb-6">
+                <label className="block text-sm font-medium text-black mb-2">
+                  Your Name
+                </label>
+                <input
+                  type="text"
+                  placeholder="Enter your name for the leaderboard"
+                  value={playerName}
+                  onChange={(e) => setPlayerName(e.target.value)}
+                  className="w-full px-4 py-3 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-black focus:border-black"
+                  maxLength={20}
+                />
+              </div>
+
+              {/* Action Buttons */}
+              <div className="space-y-3">
+                <Button 
+                  onClick={saveToLeaderboard}
+                  disabled={!playerName.trim()}
+                  className="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800 transition-colors font-medium"
+                >
+                  Save to Leaderboard
+                </Button>
+                <Button 
+                  onClick={resetGame}
+                  variant="outline"
+                  className="w-full border border-gray-300 text-black py-3 rounded-md hover:bg-gray-50 transition-colors font-medium"
+                >
+                  Play Again
+                </Button>
+              </div>
             </div>
-          </CardContent>
-        </Card>
+          </div>
+        </div>
       </div>
     )
   }
 
   if (gameState === 'leaderboard') {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-purple-50 via-blue-50 to-pink-50 p-4">
+      <div className="min-h-screen bg-gray-50 p-4">
         <Navigation />
         <div className="max-w-4xl mx-auto pt-24">
           <div className="text-center mb-8">
             <div className="flex items-center justify-center gap-3 mb-4">
-              <Trophy className="w-10 h-10 text-yellow-500" />
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
+              <Trophy className="w-10 h-10 text-gray-600" />
+              <h1 className="text-4xl font-bold text-gray-800">
                 Leaderboard
               </h1>
             </div>
@@ -584,19 +579,19 @@ export default function Home() {
             {leaderboard.map((entry) => (
               <Card key={entry.rank} className={cn(
                 "bg-white/90 backdrop-blur-sm border-0 transition-all duration-300 hover:shadow-lg",
-                entry.rank === 1 && "ring-2 ring-yellow-400 bg-gradient-to-r from-yellow-50 to-amber-50",
-                entry.rank === 2 && "ring-2 ring-gray-300 bg-gradient-to-r from-gray-50 to-slate-50",
-                entry.rank === 3 && "ring-2 ring-orange-400 bg-gradient-to-r from-orange-50 to-amber-50"
+                entry.rank === 1 && "ring-2 ring-gray-400 bg-gray-50",
+                entry.rank === 2 && "ring-2 ring-gray-300 bg-gray-100",
+                entry.rank === 3 && "ring-2 ring-gray-200 bg-white"
               )}>
                 <CardContent className="p-4">
                   <div className="flex items-center justify-between">
                     <div className="flex items-center gap-4">
                       <div className={cn(
                         "w-10 h-10 rounded-full flex items-center justify-center font-bold text-white",
-                        entry.rank === 1 && "bg-gradient-to-r from-yellow-400 to-amber-500",
-                        entry.rank === 2 && "bg-gradient-to-r from-gray-400 to-slate-500",
-                        entry.rank === 3 && "bg-gradient-to-r from-orange-400 to-amber-500",
-                        entry.rank > 3 && "bg-gray-400"
+                        entry.rank === 1 && "bg-gray-800",
+                        entry.rank === 2 && "bg-gray-700",
+                        entry.rank === 3 && "bg-gray-600",
+                        entry.rank > 3 && "bg-gray-500"
                       )}>
                         {entry.rank}
                       </div>
@@ -606,7 +601,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="text-right">
-                      <p className="text-2xl font-bold text-purple-600">{entry.score}</p>
+                      <p className="text-2xl font-bold text-gray-800">{entry.score}</p>
                       <p className="text-xs text-gray-500">points</p>
                     </div>
                   </div>
@@ -619,7 +614,7 @@ export default function Home() {
             <Button 
               onClick={resetGame}
               size="lg"
-              className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold px-8 py-3 rounded-xl"
+              className="bg-gray-800 hover:bg-gray-900 text-white font-semibold px-8 py-3 rounded-xl"
             >
               Play Again
             </Button>
