@@ -67,7 +67,7 @@ export function AboutSection() {
             
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                QuizMaster Pro was born from a simple idea: what if learning could be as addictive 
+                EdukaQuiz was born from a simple idea: what if learning could be as addictive 
                 as your favorite game? We've transformed traditional education into an interactive 
                 experience that students actually want to engage with.
               </p>
@@ -76,7 +76,7 @@ export function AboutSection() {
                 Our platform combines cutting-edge educational research with game mechanics to 
                 create an environment where knowledge sticks. Whether you're a student looking 
                 to supplement your studies or a lifelong learner seeking new challenges, 
-                QuizMaster Pro adapts to your pace and learning style.
+                EdukaQuiz adapts to your pace and learning style.
               </p>
               
               <p>

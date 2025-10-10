@@ -58,7 +58,7 @@ export function Footer() {
               <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
                 <Brain className="w-5 h-5 text-white" />
               </div>
-              <span className="text-xl font-bold">QuizMaster Pro</span>
+              <span className="text-xl font-bold">EdukaQuiz</span>
             </div>
             <p className="text-gray-400 mb-6 leading-relaxed">
               Transforming education into an exciting adventure. Learn, play, and grow with our 
@@ -108,7 +108,7 @@ export function Footer() {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <div className="flex items-center gap-2 text-gray-400 text-sm">
-              <span>© 2024 QuizMaster Pro. Made with</span>
+              <span>© 2024 EdukaQuiz. Made with</span>
               <Heart className="w-4 h-4 text-red-500" />
               <span>for learners worldwide.</span>
             </div>

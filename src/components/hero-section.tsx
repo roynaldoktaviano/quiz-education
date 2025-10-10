@@ -34,23 +34,22 @@ export function HeroSection() {
           {/* Badge */}
           <div className="inline-flex items-center gap-2 px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-6">
             <Zap className="w-4 h-4" />
-            <span>Learn Through Play</span>
+            <span>Game Edukatif</span>
             <Star className="w-4 h-4" />
           </div>
 
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
             <span className="bg-gradient-to-r from-purple-600 via-blue-600 to-pink-600 bg-clip-text text-transparent">
-              Master Knowledge
+              Asah Otakmu,
             </span>
             <br />
-            <span className="text-gray-800">Through Gaming</span>
+            <span className="text-gray-800">Raih Skor Tertinggi!</span>
           </h1>
 
           {/* Description */}
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Transform learning into an adventure! Challenge yourself across multiple categories, 
-            compete with friends, and climb the global leaderboard.
+            Selami dunia quiz edukatif yang seru dan interaktif! Tantang dirimu dengan berbagai pertanyaan menarik dari berbagai kategori, asah kemampuan berpikir kritis dan cepat, serta raih skor tertinggi.
           </p>
 
           {/* CTA Buttons */}
@@ -61,7 +60,7 @@ export function HeroSection() {
               className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white font-semibold px-8 py-4 rounded-xl text-lg transition-all duration-300 group"
             >
               <Play className="w-5 h-5 mr-2" />
-              Start Playing
+              Mulai Bermain
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
             </Button>
             <Button 
@@ -74,12 +73,12 @@ export function HeroSection() {
               className="border-2 border-purple-200 text-purple-700 hover:bg-purple-50 font-semibold px-8 py-4 rounded-xl text-lg transition-all duration-300"
             >
               <Trophy className="w-5 h-5 mr-2" />
-              View Rankings
+              Lihat Rankings
             </Button>
           </div>
 
           {/* Stats Cards */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
             {stats.map((stat, index) => {
               const Icon = stat.icon
               return (
@@ -94,7 +93,7 @@ export function HeroSection() {
                 </Card>
               )
             })}
-          </div>
+          </div> */}
         </div>
 
         {/* Floating Elements */}

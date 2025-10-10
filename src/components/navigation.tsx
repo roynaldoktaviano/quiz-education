@@ -18,7 +18,7 @@ const navigationItems: NavigationItem[] = [
     label: 'Home',
     href: '#home',
     icon: Home,
-    description: 'Welcome to QuizMaster Pro'
+    description: 'Welcome to EdukaQuiz'
   },
   {
     label: 'Play',
@@ -32,12 +32,12 @@ const navigationItems: NavigationItem[] = [
     icon: Trophy,
     description: 'Top performers'
   },
-  {
-    label: 'Features',
-    href: '#features',
-    icon: Star,
-    description: 'What makes us special'
-  },
+  // {
+  //   label: 'Features',
+  //   href: '#features',
+  //   icon: Star,
+  //   description: 'What makes us special'
+  // },
   {
     label: 'About',
     href: '#about',
@@ -65,11 +65,11 @@ export function Navigation() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+            <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-900 rounded-lg flex items-center justify-center">
               <Brain className="w-5 h-5 text-white" />
             </div>
-            <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              QuizMaster Pro
+            <span className="text-xl font-9old bg-gradient-to-r from-blue-600 to-blue-900 bg-clip-text text-transparent">
+              EdukaQuiz
             </span>
           </div>
 
@@ -102,11 +102,11 @@ export function Navigation() {
             <SheetContent side="right" className="w-80 bg-white/95 backdrop-blur-md">
               <div className="flex items-center justify-between mb-6">
                 <div className="flex items-center gap-2">
-                  <div className="w-8 h-8 bg-gradient-to-r from-purple-600 to-blue-600 rounded-lg flex items-center justify-center">
+                  <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-900 rounded-lg flex items-center justify-center">
                     <Brain className="w-5 h-5 text-white" />
                   </div>
-                  <span className="text-xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                    QuizMaster Pro
+                  <span className="text-xl font-bold bg-gradient-to-r from-blue-600 to-blue-900 bg-clip-text text-transparent">
+                    EdukaQuiz
                   </span>
                 </div>
                 <Button variant="ghost" size="sm" onClick={() => setIsOpen(false)}>

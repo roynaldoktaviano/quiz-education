@@ -60,7 +60,7 @@ export function FeaturesSection() {
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
             <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              Why Choose QuizMaster Pro?
+              Why Choose EdukaQuiz?
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
