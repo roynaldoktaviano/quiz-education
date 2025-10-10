@@ -100,7 +100,7 @@ export function Navigation() {
               </Button>
             </SheetTrigger>
             <SheetContent side="right" className="w-80 bg-white/95 backdrop-blur-md">
-              <div className="flex items-center justify-between mb-6">
+              <div className="flex items-center justify-between mb-6 p-8">
                 <div className="flex items-center gap-2">
                   <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-blue-900 rounded-lg flex items-center justify-center">
                     <Brain className="w-5 h-5 text-white" />
@@ -123,7 +123,7 @@ export function Navigation() {
                       variant={activeSection === item.href.slice(1) ? "secondary" : "ghost"}
                       size="lg"
                       onClick={() => scrollToSection(item.href.slice(1))}
-                      className="w-full justify-start gap-3 p-4 rounded-xl transition-all duration-200"
+                      className="w-full justify-start gap-3 p-4 mt-5 rounded-xl transition-all duration-200"
                     >
                       <div className="w-10 h-10 bg-purple-100 rounded-lg flex items-center justify-center">
                         <Icon className="w-5 h-5 text-purple-600" />
@@ -139,7 +139,7 @@ export function Navigation() {
                 })}
               </div>
 
-              <div className="mt-8 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl">
+              {/* <div className="mt-8 p-4 bg-gradient-to-r from-purple-50 to-blue-50 rounded-xl">
                 <div className="flex items-center gap-2 mb-2">
                   <Users className="w-5 h-5 text-purple-600" />
                   <span className="font-semibold text-purple-900">Join thousands of learners!</span>
@@ -147,7 +147,7 @@ export function Navigation() {
                 <p className="text-sm text-purple-700">
                   Start your educational journey today and compete with students worldwide.
                 </p>
-              </div>
+              </div> */}
             </SheetContent>
           </Sheet>
         </div>
