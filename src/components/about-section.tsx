@@ -7,26 +7,26 @@ import { BookOpen, Target, Users, Lightbulb, Heart, GraduationCap } from 'lucide
 const values = [
   {
     icon: Lightbulb,
-    title: 'Innovation',
-    description: 'Revolutionizing education through gamification',
+    title: 'Fasilitas Lengkap',
+    description: 'Ruang kelas modern, laboratorium, dan perpustakaan yang mendukung belajar aktif.',
     color: 'bg-yellow-500'
   },
   {
     icon: Heart,
-    title: 'Passion',
-    description: 'Driven by the love of learning and teaching',
+    title: 'Ekstrakurikuler Beragam',
+    description: 'Dari olahraga, seni, hingga klub sains, semua ada untuk mengembangkan bakatmu.',
     color: 'bg-red-500'
   },
   {
     icon: Target,
-    title: 'Excellence',
-    description: 'Committed to providing the best educational experience',
+    title: 'Guru Profesional & Peduli',
+    description: 'Tenaga pengajar berpengalaman yang siap membimbing setiap langkahmu.',
     color: 'bg-blue-500'
   },
   {
     icon: Users,
-    title: 'Community',
-    description: 'Building a global network of learners',
+    title: 'Lingkungan Belajar Menyenangkan',
+    description: 'Suasana ramah, aman, dan inspiratif untuk teman-teman SMP yang ingin melanjutkan pendidikan.',
     color: 'bg-green-500'
   }
 ]
@@ -44,16 +44,16 @@ export function AboutSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <Badge className="mb-4 px-4 py-2 bg-purple-100 text-purple-700">
-            About Us
+          <Badge className="mb-4 px-4 py-2 bg-purple-100 text-blue-600">
+            Tentang Kami
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold mb-4">
-            <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-              Our Educational Mission
+            <span className="bg-gradient-to-r from-blue-600 to-blue-900 bg-clip-text text-transparent">
+              SMA Warga Surakarta
             </span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We believe learning should be exciting, engaging, and accessible to everyone
+            Jl. Walter Monginsidi No.17, Tegalharjo, Kec. Jebres, Kota Surakarta, Jawa Tengah
           </p>
         </div>
 
@@ -61,32 +61,26 @@ export function AboutSection() {
           {/* Mission Content */}
           <div>
             <div className="flex items-center gap-3 mb-6">
-              <GraduationCap className="w-8 h-8 text-purple-600" />
-              <h3 className="text-2xl font-bold text-gray-800">Making Learning Fun Again</h3>
+              {/* <GraduationCap className="w-8 h-8 text-purple-600" /> */}
+              <h3 className="text-2xl font-bold text-gray-800">Kenali SMA Warga Surakarta Lewat Quiz Seru!</h3>
             </div>
             
             <div className="space-y-4 text-gray-600 leading-relaxed">
               <p>
-                EdukaQuiz was born from a simple idea: what if learning could be as addictive 
-                as your favorite game? We've transformed traditional education into an interactive 
-                experience that students actually want to engage with.
+               Selamat datang di Quiz Edu Warga Surakarta! Kami hadir untuk membuat proses mengenal SMA Warga Surakarta jadi lebih seru dan interaktif. Lewat quiz sederhana ini, kamu bisa menguji pengetahuanmu, belajar hal baru, dan sekaligus melihat sekilas kegiatan, fasilitas, dan budaya belajar di sekolah kami.
               </p>
               
               <p>
-                Our platform combines cutting-edge educational research with game mechanics to 
-                create an environment where knowledge sticks. Whether you're a student looking 
-                to supplement your studies or a lifelong learner seeking new challenges, 
-                EdukaQuiz adapts to your pace and learning style.
+               Tujuan kami adalah membantu siswa SMP seperti kamu untuk lebih mengenal SMA Warga Surakarta dengan cara yang menyenangkan, tanpa harus merasa bosan. Tantang dirimu, raih skor tertinggi, dan temukan keseruan belajar sambil bermain!
               </p>
               
               <p>
-                No logins, no barriers, no complications. Just pure learning fun, available 
-                instantly to anyone with curiosity and a desire to grow.
+              SMA Warga Surakarta percaya bahwa proses belajar tidak harus membosankan. Melalui quiz interaktif ini, kamu bisa mengenal sekolah kami dengan cara yang menyenangkan, sekaligus mengasah kemampuan berpikir cepat. Dari fasilitas modern hingga kegiatan ekstrakurikuler yang menarik, semua bisa kamu temukan sambil bermain dan bersaing untuk meraih skor tertinggi!
               </p>
             </div>
 
             {/* Quick Stats */}
-            <div className="grid grid-cols-2 gap-4 mt-8">
+            {/* <div className="grid grid-cols-2 gap-4 mt-8">
               {stats.map((stat, index) => (
                 <Card key={index} className="bg-white/80 backdrop-blur-sm border-0 shadow-md">
                   <CardContent className="p-4 text-center">
@@ -95,7 +89,7 @@ export function AboutSection() {
                   </CardContent>
                 </Card>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Values Grid */}
@@ -119,19 +113,16 @@ export function AboutSection() {
 
         {/* Educational Philosophy */}
         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-8 text-center">
-          <BookOpen className="w-12 h-12 text-purple-600 mx-auto mb-4" />
-          <h3 className="text-2xl font-bold text-gray-800 mb-4">Our Philosophy</h3>
+          <BookOpen className="w-12 h-12 text-blue-600 mx-auto mb-4" />
+          <h3 className="text-2xl font-bold text-gray-800 mb-4">Good Character, Good Competence</h3>
           <p className="text-gray-600 max-w-3xl mx-auto leading-relaxed">
-            Education should not be a chore but an adventure. By integrating game design principles 
-            with proven learning methodologies, we create experiences that not only teach but also 
-            inspire. Every question answered is a step toward mastery, every game played is a 
-            building block for lifelong learning.
+            SMA Warga Surakarta berkomitmen untuk mewujudkan generasi yang berkarakter mulia dan berkompeten dengan menanamkan nilai-nilai keimanan dan ketakwaan kepada Tuhan Yang Maha Esa melalui pendidikan agama dan moral, mengembangkan karakter mulia melalui pendidikan karakter dan budaya sekolah yang positif, meningkatkan kompetensi akademik dan nonakademik melalui kurikulum yang komprehensif serta berimbang, mengembangkan keterampilan digital yang diperlukan untuk hidup dan bekerja di era digital, serta membangun wawasan global dan kemampuan untuk memahami serta menghargai berbagai budaya di dunia.
           </p>
           <div className="flex flex-wrap justify-center gap-3 mt-6">
-            <Badge variant="secondary" className="px-4 py-2">Gamification</Badge>
-            <Badge variant="secondary" className="px-4 py-2">Adaptive Learning</Badge>
+            <Badge variant="secondary" className="px-4 py-2">Visi & Misi</Badge>
+            {/* <Badge variant="secondary" className="px-4 py-2">Adaptive Learning</Badge>
             <Badge variant="secondary" className="px-4 py-2">Instant Feedback</Badge>
-            <Badge variant="secondary" className="px-4 py-2">Global Community</Badge>
+            <Badge variant="secondary" className="px-4 py-2">Global Community</Badge> */}
           </div>
         </div>
       </div>

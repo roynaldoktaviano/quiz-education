@@ -812,7 +812,7 @@ export default function Home() {
         </section>
 
         {/* <FeaturesSection /> */}
-        {/* <AboutSection /> */}
+        <AboutSection />
         
         {/* Leaderboard Section */}
         <section id="leaderboard" className="py-20 bg-gray-50">
