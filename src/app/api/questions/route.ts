@@ -11,7 +11,7 @@ interface Question {
 }
 
 const allQuestions: Question[] = [
-  // ---------------- MATEMATIKA ----------------
+  // ---------------- matematika ----------------
   { id: 1, category: 'matematika', question: 'Hasil dari 45 + 38 adalah …', options: ['73', '83', '78', '80'], correctAnswer: 2, difficulty: 'easy', points: 10 },
   { id: 2, category: 'matematika', question: 'Berapakah hasil dari 72 ÷ 8?', options: ['8', '9', '10', '7'], correctAnswer: 1, difficulty: 'easy', points: 10 },
   { id: 3, category: 'matematika', question: 'Jika x + 9 = 20, maka nilai x adalah …', options: ['9', '10', '11', '12'], correctAnswer: 1, difficulty: 'easy', points: 10 },
@@ -63,10 +63,10 @@ const allQuestions: Question[] = [
   { id: 49, category: 'matematika', question: 'Jika 3y - 6 = 12, maka nilai y adalah …', options: ['4', '5', '6', '7'], correctAnswer: 2, difficulty: 'medium', points: 15 },
   { id: 50, category: 'matematika', question: 'Hasil dari (2 + 3) × (4 + 5) adalah …', options: ['35', '40', '45', '50'], correctAnswer: 0, difficulty: 'easy', points: 10 },
 
-  // ---------------- FISIKA ----------------
+  // ---------------- fisika ----------------
   {
     id: 51,
-    category: "Fisika",
+    category: "fisika",
     question: "Besaran yang memiliki satuan meter per sekon (m/s) adalah...",
     options: ["Gaya", "Kecepatan", "Massa", "Energi"],
     correctAnswer: 1,
@@ -75,7 +75,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 52,
-    category: "Fisika",
+    category: "fisika",
     question: "Alat untuk mengukur kuat arus listrik adalah...",
     options: ["Voltmeter", "Amperemeter", "Ohmmeter", "Termometer"],
     correctAnswer: 1,
@@ -84,7 +84,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 53,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan SI untuk gaya adalah...",
     options: ["Joule", "Watt", "Newton", "Pascal"],
     correctAnswer: 2,
@@ -93,7 +93,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 54,
-    category: "Fisika",
+    category: "fisika",
     question: "Benda dikatakan bergerak jika...",
     options: ["Benda diam di tempat", "Posisi benda berubah terhadap acuan", "Benda berpindah tapi jarak tetap", "Benda diam relatif terhadap acuan"],
     correctAnswer: 1,
@@ -102,7 +102,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 55,
-    category: "Fisika",
+    category: "fisika",
     question: "Energi yang dimiliki benda karena gerak disebut...",
     options: ["Energi potensial", "Energi kinetik", "Energi panas", "Energi listrik"],
     correctAnswer: 1,
@@ -111,7 +111,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 56,
-    category: "Fisika",
+    category: "fisika",
     question: "Rumus untuk mencari gaya adalah...",
     options: ["F = m × a", "F = m ÷ a", "F = a ÷ m", "F = m + a"],
     correctAnswer: 0,
@@ -120,7 +120,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 57,
-    category: "Fisika",
+    category: "fisika",
     question: "Jika gaya 20 N bekerja pada benda bermassa 4 kg, percepatan benda adalah...",
     options: ["2 m/s²", "4 m/s²", "5 m/s²", "10 m/s²"],
     correctAnswer: 2,
@@ -129,7 +129,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 58,
-    category: "Fisika",
+    category: "fisika",
     question: "Gaya gesek selalu bekerja...",
     options: ["Searah dengan gerak benda", "Berlawanan arah dengan gerak benda", "Tegak lurus arah gerak", "Tidak berpengaruh"],
     correctAnswer: 1,
@@ -138,7 +138,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 59,
-    category: "Fisika",
+    category: "fisika",
     question: "Tekanan berbanding terbalik dengan...",
     options: ["Gaya", "Luas bidang tekan", "Massa", "Volume"],
     correctAnswer: 1,
@@ -147,7 +147,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 60,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan tekanan dalam SI adalah...",
     options: ["Newton", "Joule", "Pascal", "Ohm"],
     correctAnswer: 2,
@@ -156,7 +156,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 61,
-    category: "Fisika",
+    category: "fisika",
     question: "Bunyi tidak dapat merambat melalui...",
     options: ["Padat", "Cair", "Gas", "Ruang hampa"],
     correctAnswer: 3,
@@ -165,7 +165,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 62,
-    category: "Fisika",
+    category: "fisika",
     question: "Cahaya termasuk gelombang...",
     options: ["Mekanik", "Longitudinal", "Transversal", "Bunyi"],
     correctAnswer: 2,
@@ -174,7 +174,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 63,
-    category: "Fisika",
+    category: "fisika",
     question: "Ketika cahaya melewati prisma, ia mengalami...",
     options: ["Refleksi", "Refraksi", "Difraksi", "Interferensi"],
     correctAnswer: 1,
@@ -183,7 +183,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 64,
-    category: "Fisika",
+    category: "fisika",
     question: "Bayangan pada cermin datar bersifat...",
     options: ["Nyata dan terbalik", "Maya dan tegak", "Nyata dan tegak", "Lebih kecil dari benda"],
     correctAnswer: 1,
@@ -192,7 +192,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 65,
-    category: "Fisika",
+    category: "fisika",
     question: "Alat untuk mengukur massa jenis benda cair adalah...",
     options: ["Barometer", "Hidrometer", "Manometer", "Termometer"],
     correctAnswer: 1,
@@ -201,7 +201,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 66,
-    category: "Fisika",
+    category: "fisika",
     question: "Sumber energi terbesar di Bumi adalah...",
     options: ["Matahari", "Minyak bumi", "Batu bara", "Angin"],
     correctAnswer: 0,
@@ -210,7 +210,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 67,
-    category: "Fisika",
+    category: "fisika",
     question: "Perpindahan panas secara langsung melalui zat padat disebut...",
     options: ["Konduksi", "Konveksi", "Radiasi", "Transmisi"],
     correctAnswer: 0,
@@ -219,7 +219,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 68,
-    category: "Fisika",
+    category: "fisika",
     question: "Termometer digunakan untuk mengukur...",
     options: ["Panjang", "Waktu", "Suhu", "Massa"],
     correctAnswer: 2,
@@ -228,7 +228,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 69,
-    category: "Fisika",
+    category: "fisika",
     question: "Perubahan wujud dari padat ke gas disebut...",
     options: ["Menyublim", "Mengembun", "Meleleh", "Membeku"],
     correctAnswer: 0,
@@ -237,7 +237,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 70,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan energi dalam SI adalah...",
     options: ["Joule", "Watt", "Newton", "Ampere"],
     correctAnswer: 0,
@@ -246,7 +246,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 71,
-    category: "Fisika",
+    category: "fisika",
     question: "Hambatan listrik dilambangkan dengan huruf...",
     options: ["R", "I", "V", "P"],
     correctAnswer: 0,
@@ -255,7 +255,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 72,
-    category: "Fisika",
+    category: "fisika",
     question: "Bunyi yang memiliki frekuensi di atas 20.000 Hz disebut...",
     options: ["Infrasonik", "Audiosonik", "Ultrasonik", "Supersonik"],
     correctAnswer: 2,
@@ -264,7 +264,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 73,
-    category: "Fisika",
+    category: "fisika",
     question: "Salah satu contoh energi potensial adalah...",
     options: ["Batu di atas tebing", "Mobil yang melaju", "Kipas yang berputar", "Lampu menyala"],
     correctAnswer: 0,
@@ -273,7 +273,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 74,
-    category: "Fisika",
+    category: "fisika",
     question: "Gaya gravitasi ditemukan oleh...",
     options: ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "James Watt"],
     correctAnswer: 1,
@@ -282,7 +282,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 75,
-    category: "Fisika",
+    category: "fisika",
     question: "Arus listrik mengalir dari...",
     options: ["Kutub negatif ke positif", "Kutub positif ke negatif", "Searah medan listrik", "Tidak tentu arah"],
     correctAnswer: 1,
@@ -291,7 +291,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 76,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan daya listrik adalah...",
     options: ["Volt", "Watt", "Ampere", "Joule"],
     correctAnswer: 1,
@@ -300,7 +300,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 77,
-    category: "Fisika",
+    category: "fisika",
     question: "Jika sebuah lampu 40 W dinyalakan selama 2 jam, energi yang digunakan adalah...",
     options: ["40 J", "80 J", "288.000 J", "120.000 J"],
     correctAnswer: 2,
@@ -309,7 +309,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 78,
-    category: "Fisika",
+    category: "fisika",
     question: "Kaca pembesar termasuk jenis lensa...",
     options: ["Cekung", "Cembung", "Datar", "Silinder"],
     correctAnswer: 1,
@@ -318,7 +318,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 79,
-    category: "Fisika",
+    category: "fisika",
     question: "Sifat bayangan pada lensa cembung dapat bersifat...",
     options: ["Selalu maya", "Selalu nyata", "Tergantung jarak benda", "Selalu tegak"],
     correctAnswer: 2,
@@ -327,7 +327,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 80,
-    category: "Fisika",
+    category: "fisika",
     question: "Besaran turunan berikut adalah...",
     options: ["Massa", "Waktu", "Kecepatan", "Panjang"],
     correctAnswer: 2,
@@ -336,7 +336,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 81,
-    category: "Fisika",
+    category: "fisika",
     question: "Besaran pokok yang satuannya kelvin digunakan untuk mengukur...",
     options: ["Panjang", "Massa", "Suhu", "Waktu"],
     correctAnswer: 2,
@@ -345,7 +345,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 82,
-    category: "Fisika",
+    category: "fisika",
     question: "Alat yang digunakan untuk mengukur tekanan udara adalah...",
     options: ["Termometer", "Manometer", "Barometer", "Altimeter"],
     correctAnswer: 2,
@@ -354,7 +354,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 83,
-    category: "Fisika",
+    category: "fisika",
     question: "Rumus tekanan adalah...",
     options: ["P = F/A", "P = A/F", "P = m × g", "P = F × A"],
     correctAnswer: 0,
@@ -363,7 +363,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 84,
-    category: "Fisika",
+    category: "fisika",
     question: "Hukum Archimedes berbunyi...",
     options: [
       "Tekanan berbanding lurus dengan gaya",
@@ -377,7 +377,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 85,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan frekuensi dalam SI adalah...",
     options: ["Hertz", "Joule", "Pascal", "Watt"],
     correctAnswer: 0,
@@ -386,7 +386,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 86,
-    category: "Fisika",
+    category: "fisika",
     question: "Gelombang yang arah rambatnya sejajar dengan arah getarnya disebut...",
     options: ["Transversal", "Longitudinal", "Stasioner", "Elektromagnetik"],
     correctAnswer: 1,
@@ -395,7 +395,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 87,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan hambatan listrik dalam SI adalah...",
     options: ["Volt", "Ohm", "Ampere", "Joule"],
     correctAnswer: 1,
@@ -404,7 +404,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 88,
-    category: "Fisika",
+    category: "fisika",
     question: "Hukum Ohm dinyatakan dengan rumus...",
     options: ["V = I × R", "P = V × I", "R = V × I", "I = R × V"],
     correctAnswer: 0,
@@ -413,7 +413,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 89,
-    category: "Fisika",
+    category: "fisika",
     question: "Jika tegangan 12 V dan arus 2 A, maka hambatannya adalah...",
     options: ["6 Ohm", "12 Ohm", "24 Ohm", "2 Ohm"],
     correctAnswer: 0,
@@ -422,7 +422,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 90,
-    category: "Fisika",
+    category: "fisika",
     question: "Energi listrik dapat diubah menjadi energi panas pada alat...",
     options: ["Lampu pijar", "Kipas angin", "Motor listrik", "Radio"],
     correctAnswer: 0,
@@ -431,7 +431,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 91,
-    category: "Fisika",
+    category: "fisika",
     question: "Hukum kekekalan energi menyatakan bahwa...",
     options: [
       "Energi dapat diciptakan dan dimusnahkan",
@@ -445,7 +445,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 92,
-    category: "Fisika",
+    category: "fisika",
     question: "Perpindahan panas tanpa zat perantara disebut...",
     options: ["Konduksi", "Konveksi", "Radiasi", "Refleksi"],
     correctAnswer: 2,
@@ -454,7 +454,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 93,
-    category: "Fisika",
+    category: "fisika",
     question: "Ketika logam dipanaskan, volumenya akan...",
     options: ["Tetap", "Mengecil", "Membesar", "Menghilang"],
     correctAnswer: 2,
@@ -463,7 +463,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 94,
-    category: "Fisika",
+    category: "fisika",
     question: "Fenomena pembiasan menyebabkan pensil dalam air terlihat...",
     options: ["Lebih pendek", "Lebih panjang", "Patah", "Tidak terlihat"],
     correctAnswer: 2,
@@ -472,7 +472,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 95,
-    category: "Fisika",
+    category: "fisika",
     question: "Cermin yang digunakan pada mobil untuk melihat area luas adalah...",
     options: ["Cermin datar", "Cermin cembung", "Cermin cekung", "Kaca pembesar"],
     correctAnswer: 1,
@@ -481,7 +481,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 96,
-    category: "Fisika",
+    category: "fisika",
     question: "Energi potensial gravitasi bergantung pada...",
     options: ["Massa dan kecepatan", "Massa dan ketinggian", "Luas dan tekanan", "Waktu dan gaya"],
     correctAnswer: 1,
@@ -490,7 +490,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 97,
-    category: "Fisika",
+    category: "fisika",
     question: "Rumus energi potensial gravitasi adalah...",
     options: ["Ep = m × g × h", "Ep = m × v²", "Ep = F × s", "Ep = I × V"],
     correctAnswer: 0,
@@ -499,7 +499,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 98,
-    category: "Fisika",
+    category: "fisika",
     question: "Ketika benda jatuh bebas, energi kinetiknya akan...",
     options: ["Tetap", "Berkurang", "Bertambah", "Hilang"],
     correctAnswer: 2,
@@ -508,7 +508,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 99,
-    category: "Fisika",
+    category: "fisika",
     question: "Gelombang bunyi termasuk jenis gelombang...",
     options: ["Transversal", "Longitudinal", "Elektromagnetik", "Stasioner"],
     correctAnswer: 1,
@@ -517,7 +517,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 100,
-    category: "Fisika",
+    category: "fisika",
     question: "Satuan percepatan gravitasi adalah...",
     options: ["m/s", "m/s²", "m²/s", "m²/s²"],
     correctAnswer: 1,
@@ -525,10 +525,10 @@ const allQuestions: Question[] = [
     points: 5
   },
 
-  // ---------------- KIMIA ----------------
+  // ---------------- kimia ----------------
   {
     id: 101,
-    category: "Kimia",
+    category: "kimia",
     question: "Air (H₂O) termasuk jenis zat...",
     options: ["Unsur", "Senyawa", "Campuran", "Logam"],
     correctAnswer: 1,
@@ -537,7 +537,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 102,
-    category: "Kimia",
+    category: "kimia",
     question: "Unsur yang paling banyak di udara adalah...",
     options: ["Oksigen", "Nitrogen", "Karbon dioksida", "Hidrogen"],
     correctAnswer: 1,
@@ -546,7 +546,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 103,
-    category: "Kimia",
+    category: "kimia",
     question: "Rumus kimia garam dapur adalah...",
     options: ["NaOH", "NaCl", "KCl", "HCl"],
     correctAnswer: 1,
@@ -555,7 +555,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 104,
-    category: "Kimia",
+    category: "kimia",
     question: "Senyawa yang terbentuk dari unsur karbon dan oksigen adalah...",
     options: ["CO₂", "NaCl", "H₂O", "NH₃"],
     correctAnswer: 0,
@@ -564,7 +564,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 105,
-    category: "Kimia",
+    category: "kimia",
     question: "Unsur yang menjadi bahan utama pembentuk baja adalah...",
     options: ["Tembaga", "Aluminium", "Besi", "Perak"],
     correctAnswer: 2,
@@ -573,7 +573,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 106,
-    category: "Kimia",
+    category: "kimia",
     question: "Perubahan wujud dari padat menjadi cair disebut...",
     options: ["Menguap", "Membeku", "Meleleh", "Mengkristal"],
     correctAnswer: 2,
@@ -582,7 +582,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 107,
-    category: "Kimia",
+    category: "kimia",
     question: "Proses penguapan yang terjadi pada seluruh bagian zat cair disebut...",
     options: ["Menguap", "Mendidih", "Menyublim", "Mengkristal"],
     correctAnswer: 1,
@@ -591,7 +591,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 108,
-    category: "Kimia",
+    category: "kimia",
     question: "Perubahan kimia ditandai oleh...",
     options: ["Perubahan warna", "Perubahan wujud sementara", "Tidak ada zat baru", "Zat kembali seperti semula"],
     correctAnswer: 0,
@@ -600,7 +600,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 109,
-    category: "Kimia",
+    category: "kimia",
     question: "Perkaratan pada besi merupakan contoh dari...",
     options: ["Perubahan fisika", "Perubahan kimia", "Sublimasi", "Kondensasi"],
     correctAnswer: 1,
@@ -609,7 +609,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 110,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang dapat menetralkan asam adalah...",
     options: ["Air", "Basa", "Garam", "Gas"],
     correctAnswer: 1,
@@ -618,7 +618,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 111,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat dengan pH kurang dari 7 disebut...",
     options: ["Asam", "Basa", "Netral", "Garam"],
     correctAnswer: 0,
@@ -627,7 +627,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 112,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat dengan pH lebih dari 7 disebut...",
     options: ["Asam", "Basa", "Netral", "Asam lemah"],
     correctAnswer: 1,
@@ -636,7 +636,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 113,
-    category: "Kimia",
+    category: "kimia",
     question: "Campuran air dan minyak termasuk campuran...",
     options: ["Homogen", "Heterogen", "Padat", "Gas"],
     correctAnswer: 1,
@@ -645,7 +645,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 114,
-    category: "Kimia",
+    category: "kimia",
     question: "Larutan gula dalam air adalah contoh campuran...",
     options: ["Homogen", "Heterogen", "Gas", "Padat"],
     correctAnswer: 0,
@@ -654,7 +654,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 115,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang dapat menghantarkan listrik disebut...",
     options: ["Isolator", "Konduktor", "Larutan", "Senyawa"],
     correctAnswer: 1,
@@ -663,7 +663,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 116,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang menyebabkan karat pada besi adalah...",
     options: ["Karbon dioksida", "Oksigen dan air", "Hidrogen", "Nitrogen"],
     correctAnswer: 1,
@@ -672,7 +672,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 117,
-    category: "Kimia",
+    category: "kimia",
     question: "Proses fotosintesis menghasilkan...",
     options: ["Oksigen dan air", "Oksigen dan glukosa", "Karbon dioksida dan air", "Air dan energi"],
     correctAnswer: 1,
@@ -681,7 +681,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 118,
-    category: "Kimia",
+    category: "kimia",
     question: "Unsur yang paling ringan adalah...",
     options: ["Helium", "Hidrogen", "Oksigen", "Nitrogen"],
     correctAnswer: 1,
@@ -690,7 +690,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 119,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang dapat mempercepat reaksi kimia tanpa ikut bereaksi disebut...",
     options: ["Katalis", "Reaktan", "Produk", "Pelarut"],
     correctAnswer: 0,
@@ -699,7 +699,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 120,
-    category: "Kimia",
+    category: "kimia",
     question: "Air kapur menjadi keruh bila dilewati gas CO₂ karena terbentuk...",
     options: ["Garam", "Endapan", "Buih", "Asam"],
     correctAnswer: 1,
@@ -708,7 +708,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 121,
-    category: "Kimia",
+    category: "kimia",
     question: "Unsur dengan simbol Fe adalah...",
     options: ["Fluorin", "Fosfor", "Besi", "Ferium"],
     correctAnswer: 2,
@@ -717,7 +717,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 122,
-    category: "Kimia",
+    category: "kimia",
     question: "Unsur dengan simbol Cu adalah...",
     options: ["Kalsium", "Kromium", "Karbon", "Tembaga"],
     correctAnswer: 3,
@@ -726,7 +726,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 123,
-    category: "Kimia",
+    category: "kimia",
     question: "Hukum kekekalan massa menyatakan bahwa...",
     options: [
       "Massa zat berubah setelah reaksi",
@@ -740,7 +740,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 124,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang digunakan untuk memutihkan pakaian adalah...",
     options: ["Alkohol", "Klorin", "Amonia", "Aseton"],
     correctAnswer: 1,
@@ -749,7 +749,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 125,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang terkandung dalam cuka adalah...",
     options: ["Asam asetat", "Asam klorida", "Asam sulfat", "Asam nitrat"],
     correctAnswer: 0,
@@ -758,7 +758,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 126,
-    category: "Kimia",
+    category: "kimia",
     question: "Gas yang menyebabkan efek rumah kaca adalah...",
     options: ["Oksigen", "Karbon dioksida", "Hidrogen", "Nitrogen"],
     correctAnswer: 1,
@@ -767,7 +767,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 127,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang dapat mengubah warna lakmus merah menjadi biru adalah...",
     options: ["Asam", "Basa", "Garam", "Air"],
     correctAnswer: 1,
@@ -776,7 +776,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 128,
-    category: "Kimia",
+    category: "kimia",
     question: "Gas yang diperlukan untuk pembakaran adalah...",
     options: ["Hidrogen", "Oksigen", "Karbon dioksida", "Nitrogen"],
     correctAnswer: 1,
@@ -785,7 +785,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 129,
-    category: "Kimia",
+    category: "kimia",
     question: "Gas yang dihasilkan pada proses fotosintesis adalah...",
     options: ["Oksigen", "Karbon dioksida", "Hidrogen", "Nitrogen"],
     correctAnswer: 0,
@@ -794,7 +794,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 130,
-    category: "Kimia",
+    category: "kimia",
     question: "Campuran pasir dan air dapat dipisahkan dengan cara...",
     options: ["Filtrasi", "Destilasi", "Evaporasi", "Kristalisasi"],
     correctAnswer: 0,
@@ -803,7 +803,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 131,
-    category: "Kimia",
+    category: "kimia",
     question: "Destilasi digunakan untuk memisahkan campuran berdasarkan...",
     options: ["Perbedaan titik didih", "Perbedaan warna", "Perbedaan massa jenis", "Perbedaan bentuk"],
     correctAnswer: 0,
@@ -812,7 +812,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 132,
-    category: "Kimia",
+    category: "kimia",
     question: "Larutan asam dapat mengubah lakmus biru menjadi...",
     options: ["Merah", "Hijau", "Kuning", "Tidak berubah"],
     correctAnswer: 0,
@@ -821,7 +821,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 133,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang mengandung atom karbon disebut...",
     options: ["Organik", "Anorganik", "Logam", "Gas mulia"],
     correctAnswer: 0,
@@ -830,7 +830,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 134,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang dapat melarutkan zat lain disebut...",
     options: ["Pelarut", "Terlarut", "Reaktan", "Katalis"],
     correctAnswer: 0,
@@ -839,7 +839,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 135,
-    category: "Kimia",
+    category: "kimia",
     question: "Air murni merupakan contoh zat...",
     options: ["Campuran", "Senyawa", "Unsur", "Larutan"],
     correctAnswer: 1,
@@ -848,7 +848,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 136,
-    category: "Kimia",
+    category: "kimia",
     question: "Proses pembentukan karat disebut...",
     options: ["Oksidasi", "Reduksi", "Netralisasi", "Destilasi"],
     correctAnswer: 0,
@@ -857,7 +857,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 137,
-    category: "Kimia",
+    category: "kimia",
     question: "Hidrogen memiliki jumlah atom sebanyak...",
     options: ["1", "2", "3", "4"],
     correctAnswer: 0,
@@ -866,16 +866,16 @@ const allQuestions: Question[] = [
   },
   {
     id: 138,
-    category: "Kimia",
+    category: "kimia",
     question: "Perubahan air menjadi es merupakan contoh perubahan...",
-    options: ["Kimia", "Fisis", "Radiasi", "Katalisis"],
+    options: ["kimia", "Fisis", "Radiasi", "Katalisis"],
     correctAnswer: 1,
     difficulty: "easy",
     points: 5
   },
   {
     id: 139,
-    category: "Kimia",
+    category: "kimia",
     question: "Zat yang memiliki massa tetapi tidak memiliki bentuk tetap disebut...",
     options: ["Cair", "Padat", "Gas", "Plasma"],
     correctAnswer: 2,
@@ -884,7 +884,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 140,
-    category: "Kimia",
+    category: "kimia",
     question: "Asap kendaraan terutama mengandung gas...",
     options: ["CO₂", "CO", "H₂", "O₃"],
     correctAnswer: 1,
@@ -893,7 +893,7 @@ const allQuestions: Question[] = [
   },
   {
   id: 141,
-  category: "Kimia",
+  category: "kimia",
   question: "Bahan bakar yang ramah lingkungan dan dihasilkan dari tumbuhan disebut...",
   options: ["Bensin", "Solar", "Bioetanol", "Minyak tanah"],
   correctAnswer: 2,
@@ -902,7 +902,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 142,
-  category: "Kimia",
+  category: "kimia",
   question: "Unsur yang digunakan untuk mengisi balon udara karena ringan adalah...",
   options: ["Oksigen", "Hidrogen", "Helium", "Nitrogen"],
   correctAnswer: 2,
@@ -911,7 +911,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 143,
-  category: "Kimia",
+  category: "kimia",
   question: "Bahan kimia dalam baterai yang dapat mencemari lingkungan adalah...",
   options: ["Kalsium", "Merkuri", "Zat warna", "Amonia"],
   correctAnswer: 1,
@@ -920,7 +920,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 144,
-  category: "Kimia",
+  category: "kimia",
   question: "Proses pemisahan campuran padat dan cair dengan penyaringan disebut...",
   options: ["Destilasi", "Filtrasi", "Kristalisasi", "Sublimasi"],
   correctAnswer: 1,
@@ -929,7 +929,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 145,
-  category: "Kimia",
+  category: "kimia",
   question: "Larutan yang dapat menghantarkan arus listrik disebut...",
   options: ["Elektrolit", "Non-elektrolit", "Isolator", "Konduktor"],
   correctAnswer: 0,
@@ -938,7 +938,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 146,
-  category: "Kimia",
+  category: "kimia",
   question: "Proses perubahan gas menjadi cair disebut...",
   options: ["Mengkristal", "Meleleh", "Mengembun", "Menyublim"],
   correctAnswer: 2,
@@ -947,7 +947,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 147,
-  category: "Kimia",
+  category: "kimia",
   question: "Zat kimia yang digunakan untuk mensterilkan air kolam renang adalah...",
   options: ["Klorin", "Amonia", "Oksigen", "Karbon dioksida"],
   correctAnswer: 0,
@@ -956,7 +956,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 148,
-  category: "Kimia",
+  category: "kimia",
   question: "Perubahan zat padat langsung menjadi gas disebut...",
   options: ["Menguap", "Sublimasi", "Mengembun", "Meleleh"],
   correctAnswer: 1,
@@ -965,7 +965,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 149,
-  category: "Kimia",
+  category: "kimia",
   question: "Gas yang membuat soda memiliki gelembung adalah...",
   options: ["Oksigen", "Hidrogen", "Karbon dioksida", "Nitrogen"],
   correctAnswer: 2,
@@ -974,7 +974,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 150,
-  category: "Kimia",
+  category: "kimia",
   question: "Bahan yang digunakan sebagai bahan baku pupuk urea adalah...",
   options: ["Amonia", "Karbon dioksida", "Nitrogen", "Metana"],
   correctAnswer: 0,
@@ -982,10 +982,10 @@ const allQuestions: Question[] = [
   points: 10
 },
 
-  // ---------------- SEJARAH ----------------
+  // ---------------- sejarah ----------------
   {
   id: 151,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Proklamasi kemerdekaan Indonesia dibacakan pada tanggal...",
   options: ["17 Agustus 1945", "10 November 1945", "1 Juni 1945", "20 Mei 1908"],
   correctAnswer: 0,
@@ -994,7 +994,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 152,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Teks proklamasi kemerdekaan Indonesia diketik oleh...",
   options: ["Sukarno", "Moh. Hatta", "Sayuti Melik", "Ahmad Subardjo"],
   correctAnswer: 2,
@@ -1003,7 +1003,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 153,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh pendiri Budi Utomo adalah...",
   options: ["Dr. Soetomo", "Ki Hajar Dewantara", "HOS Tjokroaminoto", "Moh. Yamin"],
   correctAnswer: 0,
@@ -1012,7 +1012,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 154,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Budi Utomo berdiri pada tahun...",
   options: ["1905", "1908", "1910", "1928"],
   correctAnswer: 1,
@@ -1021,7 +1021,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 155,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Sumpah Pemuda diikrarkan pada tanggal...",
   options: ["20 Mei 1908", "28 Oktober 1928", "17 Agustus 1945", "10 November 1945"],
   correctAnswer: 1,
@@ -1030,7 +1030,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 156,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh yang dikenal sebagai Bapak Pendidikan Nasional adalah...",
   options: ["Ki Hajar Dewantara", "Dr. Soetomo", "Soekarno", "Moh. Hatta"],
   correctAnswer: 0,
@@ -1039,7 +1039,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 157,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Kerajaan Hindu tertua di Indonesia adalah...",
   options: ["Majapahit", "Kutai", "Sriwijaya", "Tarumanegara"],
   correctAnswer: 1,
@@ -1048,7 +1048,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 158,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Kerajaan Sriwijaya berpusat di daerah...",
   options: ["Sumatera Selatan", "Jawa Timur", "Kalimantan", "Sulawesi"],
   correctAnswer: 0,
@@ -1057,7 +1057,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 159,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Pendiri kerajaan Majapahit adalah...",
   options: ["Hayam Wuruk", "Raden Wijaya", "Gajah Mada", "Kertanegara"],
   correctAnswer: 1,
@@ -1066,7 +1066,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 160,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Gajah Mada terkenal dengan ikrarnya yaitu...",
   options: ["Ikrar Kebulatan Tekad", "Sumpah Palapa", "Piagam Jakarta", "Sumpah Pemuda"],
   correctAnswer: 1,
@@ -1075,7 +1075,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 161,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Kerajaan Islam pertama di Indonesia adalah...",
   options: ["Demak", "Samarinda", "Perlak", "Aceh Darussalam"],
   correctAnswer: 2,
@@ -1084,7 +1084,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 162,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Kerajaan Majapahit mencapai puncak kejayaan pada masa...",
   options: ["Kertanegara", "Raden Wijaya", "Hayam Wuruk", "Ken Arok"],
   correctAnswer: 2,
@@ -1093,7 +1093,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 163,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh yang mengusulkan dasar negara Pancasila adalah...",
   options: ["Soekarno", "Moh. Hatta", "Soepomo", "Yamin"],
   correctAnswer: 0,
@@ -1102,7 +1102,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 164,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Peristiwa G30S/PKI terjadi pada tahun...",
   options: ["1945", "1950", "1965", "1970"],
   correctAnswer: 2,
@@ -1111,7 +1111,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 165,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh pejuang wanita dari Aceh adalah...",
   options: ["Cut Nyak Dien", "R.A. Kartini", "Martha Christina Tiahahu", "Dewi Sartika"],
   correctAnswer: 0,
@@ -1120,7 +1120,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 166,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh pejuang wanita yang berasal dari Jepara adalah...",
   options: ["Cut Nyak Dien", "R.A. Kartini", "Dewi Sartika", "Fatmawati"],
   correctAnswer: 1,
@@ -1129,7 +1129,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 167,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perang Diponegoro terjadi pada tahun...",
   options: ["1825–1830", "1800–1810", "1850–1855", "1900–1905"],
   correctAnswer: 0,
@@ -1138,7 +1138,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 168,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh utama dalam Perang Diponegoro adalah...",
   options: ["Pangeran Antasari", "Sultan Hasanuddin", "Pangeran Diponegoro", "Tuanku Imam Bonjol"],
   correctAnswer: 2,
@@ -1147,7 +1147,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 169,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Pahlawan nasional dari Kalimantan Selatan adalah...",
   options: ["Sultan Hasanuddin", "Pangeran Antasari", "Pattimura", "Kapitan Pattimura"],
   correctAnswer: 1,
@@ -1156,7 +1156,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 170,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perang Pattimura terjadi di daerah...",
   options: ["Maluku", "Sumatera", "Jawa", "Sulawesi"],
   correctAnswer: 0,
@@ -1165,7 +1165,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 171,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tanggal 10 November diperingati sebagai hari...",
   options: ["Pahlawan", "Kemerdekaan", "Kebangkitan Nasional", "Koperasi"],
   correctAnswer: 0,
@@ -1174,7 +1174,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 172,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh proklamator Indonesia adalah...",
   options: ["Soekarno dan Hatta", "Soekarno dan Sjahrir", "Hatta dan Sudirman", "Hatta dan Yamin"],
   correctAnswer: 0,
@@ -1183,7 +1183,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 173,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perang Tondano terjadi di daerah...",
   options: ["Sulawesi Utara", "Sumatera Barat", "Kalimantan Timur", "Bali"],
   correctAnswer: 0,
@@ -1192,7 +1192,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 174,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Organisasi Taman Siswa didirikan oleh...",
   options: ["Ki Hajar Dewantara", "Dr. Soetomo", "HOS Tjokroaminoto", "Kartini"],
   correctAnswer: 0,
@@ -1201,7 +1201,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 175,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tuanku Imam Bonjol memimpin perang di daerah...",
   options: ["Sumatera Barat", "Aceh", "Jawa Tengah", "Maluku"],
   correctAnswer: 0,
@@ -1210,7 +1210,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 176,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Sultan Hasanuddin dijuluki sebagai...",
   options: ["Pahlawan dari Maluku", "Ayam Jantan dari Timur", "Pahlawan dari Aceh", "Raja Jawa"],
   correctAnswer: 1,
@@ -1219,7 +1219,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 177,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Peristiwa Bandung Lautan Api terjadi pada tahun...",
   options: ["1945", "1946", "1947", "1948"],
   correctAnswer: 1,
@@ -1228,7 +1228,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 178,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Pahlawan nasional dari Maluku adalah...",
   options: ["Pattimura", "Cut Nyak Dien", "Diponegoro", "Sultan Hasanuddin"],
   correctAnswer: 0,
@@ -1237,7 +1237,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 179,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perang Puputan terjadi di daerah...",
   options: ["Bali", "Aceh", "Jawa", "Sulawesi"],
   correctAnswer: 0,
@@ -1246,7 +1246,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 180,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perjanjian Renville ditandatangani pada tahun...",
   options: ["1946", "1947", "1948", "1949"],
   correctAnswer: 2,
@@ -1255,7 +1255,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 181,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tujuan utama dari perjanjian Linggarjati adalah...",
   options: ["Mengakhiri penjajahan", "Mengatur wilayah kekuasaan", "Mengatur hubungan dagang", "Menjalin kerja sama ekonomi"],
   correctAnswer: 1,
@@ -1264,7 +1264,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 182,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh pahlawan nasional dari Sulawesi Selatan adalah...",
   options: ["Pangeran Antasari", "Sultan Hasanuddin", "Pattimura", "Cut Nyak Dien"],
   correctAnswer: 1,
@@ -1273,7 +1273,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 183,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Organisasi Sarekat Islam berdiri pada tahun...",
   options: ["1910", "1911", "1912", "1913"],
   correctAnswer: 2,
@@ -1282,7 +1282,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 184,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Pemimpin pertama Sarekat Islam adalah...",
   options: ["HOS Tjokroaminoto", "Soekarno", "Ki Hajar Dewantara", "Dr. Soetomo"],
   correctAnswer: 0,
@@ -1291,7 +1291,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 185,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perjanjian Bongaya terjadi antara Belanda dan...",
   options: ["Kerajaan Ternate", "Kerajaan Gowa", "Kerajaan Majapahit", "Kerajaan Sriwijaya"],
   correctAnswer: 1,
@@ -1300,7 +1300,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 186,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Organisasi PNI didirikan oleh...",
   options: ["Soekarno", "Moh. Hatta", "Soepomo", "Yamin"],
   correctAnswer: 0,
@@ -1309,7 +1309,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 187,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Perjanjian Roem-Royen dilakukan pada tahun...",
   options: ["1948", "1949", "1950", "1951"],
   correctAnswer: 1,
@@ -1318,7 +1318,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 188,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Negara Indonesia resmi menjadi anggota PBB pada tahun...",
   options: ["1949", "1950", "1955", "1960"],
   correctAnswer: 1,
@@ -1327,7 +1327,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 189,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Konferensi Asia-Afrika diadakan di kota...",
   options: ["Jakarta", "Bandung", "Yogyakarta", "Surabaya"],
   correctAnswer: 1,
@@ -1336,7 +1336,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 190,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tujuan utama Konferensi Asia-Afrika adalah...",
   options: ["Mendirikan PBB", "Menolak kolonialisme", "Membangun ekonomi Asia", "Menentang perang dunia"],
   correctAnswer: 1,
@@ -1345,7 +1345,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 191,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Pahlawan nasional dari Minahasa adalah...",
   options: ["Pattimura", "Sam Ratulangi", "Sudirman", "Antasari"],
   correctAnswer: 1,
@@ -1354,7 +1354,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 192,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Dr. Cipto Mangunkusumo dikenal sebagai tokoh dari organisasi...",
   options: ["Budi Utomo", "Indische Partij", "Taman Siswa", "PNI"],
   correctAnswer: 1,
@@ -1363,7 +1363,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 193,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Indische Partij didirikan oleh Douwes Dekker, Cipto Mangunkusumo, dan...",
   options: ["Ki Hajar Dewantara", "Soekarno", "Moh. Hatta", "Yamin"],
   correctAnswer: 0,
@@ -1372,7 +1372,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 194,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Kongres Pemuda II dilaksanakan di kota...",
   options: ["Jakarta", "Bandung", "Yogyakarta", "Surabaya"],
   correctAnswer: 0,
@@ -1381,7 +1381,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 195,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Pahlawan nasional yang dijuluki 'Bung Tomo' berasal dari kota...",
   options: ["Surabaya", "Jakarta", "Semarang", "Medan"],
   correctAnswer: 0,
@@ -1390,7 +1390,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 196,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Isi utama Sumpah Pemuda adalah...",
   options: ["Satu nusa, satu bangsa, satu bahasa", "Satu tanah air", "Merdeka atau mati", "Cinta tanah air"],
   correctAnswer: 0,
@@ -1399,7 +1399,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 197,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Peristiwa Rengasdengklok terjadi sebelum...",
   options: ["Proklamasi", "Kongres Pemuda", "Konferensi Meja Bundar", "Sumpah Pemuda"],
   correctAnswer: 0,
@@ -1408,7 +1408,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 198,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Konferensi Meja Bundar (KMB) diadakan pada tahun...",
   options: ["1948", "1949", "1950", "1951"],
   correctAnswer: 1,
@@ -1417,7 +1417,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 199,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Tokoh utama dalam Perang Padri adalah...",
   options: ["Pangeran Diponegoro", "Tuanku Imam Bonjol", "Sultan Hasanuddin", "Pattimura"],
   correctAnswer: 1,
@@ -1426,7 +1426,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 200,
-  category: "Sejarah",
+  category: "sejarah",
   question: "Rumusan dasar negara pertama kali muncul dalam sidang...",
   options: ["BPUPKI", "PPKI", "KNIP", "DPR"],
   correctAnswer: 0,
@@ -1434,10 +1434,10 @@ const allQuestions: Question[] = [
   points: 10
 },
 
-  // ---------------- BAHASA INDONESIA ----------------
+  // ---------------- bahasa_indonesia ----------------
   {
     id: 201,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Gagasan utama dari sebuah paragraf disebut...",
     options: ["Ide pokok", "Kalimat utama", "Kesimpulan", "Judul"],
     correctAnswer: 0,
@@ -1446,7 +1446,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 202,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat yang berisi ajakan biasanya menggunakan kata...",
     options: ["Sebaiknya", "Harus", "Mari", "Akan"],
     correctAnswer: 2,
@@ -1455,7 +1455,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 203,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat efektif harus memiliki...",
     options: ["Banyak kata", "Subjek dan predikat", "Kata sulit", "Kalimat majemuk"],
     correctAnswer: 1,
@@ -1464,7 +1464,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 204,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Sinonim dari kata 'indah' adalah...",
     options: ["Cantik", "Buruk", "Hitam", "Kotor"],
     correctAnswer: 0,
@@ -1473,7 +1473,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 205,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Antonim dari kata 'tinggi' adalah...",
     options: ["Panjang", "Rendah", "Kecil", "Pendek"],
     correctAnswer: 1,
@@ -1482,7 +1482,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 206,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata baku dari 'aktifitas' adalah...",
     options: ["Aktivitas", "Aktifitas", "Aktivas", "Akitvitas"],
     correctAnswer: 0,
@@ -1491,7 +1491,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 207,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat yang benar penulisannya adalah...",
     options: ["Dia pergi ke pasar, untuk membeli sayur.", "Dia pergi ke pasar untuk membeli sayur.", "Dia pergi ke pasar. untuk membeli sayur", "Dia pergi ke pasar untuk membeli sayur,"],
     correctAnswer: 1,
@@ -1500,7 +1500,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 208,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat yang mengandung makna perintah adalah...",
     options: ["Kamu sudah makan?", "Tolong ambilkan buku itu!", "Dia sedang membaca buku.", "Mereka bermain di taman."],
     correctAnswer: 1,
@@ -1509,7 +1509,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 209,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang termasuk kalimat majemuk adalah...",
     options: [
       "Saya pergi ke sekolah.",
@@ -1523,7 +1523,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 210,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Teks yang berisi langkah-langkah melakukan sesuatu disebut teks...",
     options: ["Prosedur", "Deskripsi", "Narasi", "Eksposisi"],
     correctAnswer: 0,
@@ -1532,7 +1532,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 211,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Tujuan dari teks deskripsi adalah...",
     options: ["Menjelaskan proses", "Mendeskripsikan objek secara detail", "Memberi pendapat", "Membujuk pembaca"],
     correctAnswer: 1,
@@ -1541,7 +1541,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 212,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Teks narasi biasanya menceritakan tentang...",
     options: ["Langkah kerja", "Suatu peristiwa", "Pendapat seseorang", "Penjelasan ilmiah"],
     correctAnswer: 1,
@@ -1550,8 +1550,8 @@ const allQuestions: Question[] = [
   },
   {
     id: 213,
-    category: "Bahasa Indonesia",
-    question: "Contoh kata serapan dari bahasa Inggris adalah...",
+    category: "bahasa_indonesia",
+    question: "Contoh kata serapan dari bahasa_inggris adalah...",
     options: ["Televisi", "Rumah", "Sawah", "Padi"],
     correctAnswer: 0,
     difficulty: "easy",
@@ -1559,7 +1559,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 214,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'mempercantik' memiliki imbuhan...",
     options: ["me- dan -kan", "di- dan -kan", "pe- dan -an", "ber- dan -an"],
     correctAnswer: 0,
@@ -1568,7 +1568,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 215,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang termasuk kalimat pasif adalah...",
     options: ["Ibu memasak nasi.", "Nasi dimasak oleh ibu.", "Ayah membeli koran.", "Mereka sedang makan."],
     correctAnswer: 1,
@@ -1577,7 +1577,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 216,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Andi membaca buku di perpustakaan' memiliki pola kalimat...",
     options: ["S-P-O", "S-P-K", "S-P-O-K", "S-P"],
     correctAnswer: 2,
@@ -1586,7 +1586,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 217,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'pengetahuan' terbentuk dari bentuk dasar...",
     options: ["Tahu", "Mengetahui", "Pengetahui", "Ketahuan"],
     correctAnswer: 0,
@@ -1595,7 +1595,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 218,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Tanda baca yang digunakan untuk mengakhiri kalimat tanya adalah...",
     options: ["Titik", "Koma", "Tanda tanya", "Tanda seru"],
     correctAnswer: 2,
@@ -1604,7 +1604,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 219,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'menyapu' berarti...",
     options: ["Kegiatan memasak", "Membersihkan lantai", "Mencuci piring", "Menulis di papan"],
     correctAnswer: 1,
@@ -1613,7 +1613,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 220,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Budi pergi ke sekolah setiap pagi.' termasuk jenis kalimat...",
     options: ["Perintah", "Berita", "Tanya", "Seru"],
     correctAnswer: 1,
@@ -1622,7 +1622,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 221,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang termasuk kalimat seru adalah...",
     options: ["Wah, indah sekali pemandangan itu!", "Kamu sudah makan?", "Dia sedang tidur.", "Mereka bermain bola."],
     correctAnswer: 0,
@@ -1631,7 +1631,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 222,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'berlari' memiliki imbuhan...",
     options: ["me-", "ber-", "di-", "ter-"],
     correctAnswer: 1,
@@ -1640,7 +1640,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 223,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Pohon itu tumbuh tinggi' memiliki predikat...",
     options: ["Pohon", "Itu", "Tumbuh", "Tinggi"],
     correctAnswer: 2,
@@ -1649,7 +1649,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 224,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang mengandung makna larangan adalah...",
     options: ["Jangan buang sampah sembarangan!", "Ayo kita makan!", "Kamu belajar ya.", "Budi sedang tidur."],
     correctAnswer: 0,
@@ -1658,7 +1658,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 225,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Paragraf yang berisi ajakan disebut paragraf...",
     options: ["Persuasi", "Deskripsi", "Narasi", "Eksposisi"],
     correctAnswer: 0,
@@ -1667,7 +1667,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 226,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'pemanasan' berasal dari kata dasar...",
     options: ["Panas", "Memanas", "Pemanas", "Dipanas"],
     correctAnswer: 0,
@@ -1676,7 +1676,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 227,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Air sungai itu sangat jernih.' termasuk kalimat...",
     options: ["Berita", "Tanya", "Perintah", "Seru"],
     correctAnswer: 0,
@@ -1685,7 +1685,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 228,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Ia memukul bola dengan keras' memiliki objek...",
     options: ["Ia", "Memukul", "Bola", "Keras"],
     correctAnswer: 2,
@@ -1694,7 +1694,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 229,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Adik menangis karena jatuh' termasuk kalimat...",
     options: ["Majemuk", "Tunggal", "Pasif", "Tak langsung"],
     correctAnswer: 0,
@@ -1703,7 +1703,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 230,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata yang memiliki makna kebalikan disebut...",
     options: ["Antonim", "Sinonim", "Homofon", "Homonim"],
     correctAnswer: 0,
@@ -1712,7 +1712,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 231,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'rajin' bersinonim dengan...",
     options: ["Malas", "Ulet", "Lambat", "Santai"],
     correctAnswer: 1,
@@ -1721,7 +1721,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 232,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Buku itu dibaca oleh Dina.' termasuk kalimat...",
     options: ["Aktif", "Pasif", "Majemuk", "Langsung"],
     correctAnswer: 1,
@@ -1730,7 +1730,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 233,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang menggunakan kata depan dengan benar adalah...",
     options: ["Dia pergi ke pasar.", "Dia pergi di pasar.", "Dia pergi dari pasar.", "Dia pergi untuk pasar."],
     correctAnswer: 0,
@@ -1739,7 +1739,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 234,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'menggambar' termasuk kata kerja karena...",
     options: ["Menunjukkan benda", "Menunjukkan sifat", "Menunjukkan tindakan", "Menunjukkan tempat"],
     correctAnswer: 2,
@@ -1748,7 +1748,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 235,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Siti membaca buku di taman setiap sore.' memiliki keterangan...",
     options: ["Siti", "Buku", "Di taman setiap sore", "Membaca"],
     correctAnswer: 2,
@@ -1757,7 +1757,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 236,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'penjual' memiliki imbuhan...",
     options: ["pe- dan -an", "pe- dan -ul", "pe- dan -l", "pe- dan -kan"],
     correctAnswer: 0,
@@ -1766,7 +1766,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 237,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Paragraf yang menceritakan pengalaman seseorang disebut teks...",
     options: ["Narasi", "Eksposisi", "Persuasi", "Deskripsi"],
     correctAnswer: 0,
@@ -1775,7 +1775,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 238,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang menggunakan ejaan tidak baku adalah...",
     options: ["Kami bersekolah setiap hari.", "Ayah bekerja dikantor.", "Ibu memasak di dapur.", "Mereka belajar bersama."],
     correctAnswer: 1,
@@ -1784,7 +1784,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 239,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'mengajar' termasuk kata...",
     options: ["Benda", "Kerja", "Sifat", "Keterangan"],
     correctAnswer: 1,
@@ -1793,7 +1793,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 240,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Dia tidak hadir karena sakit.' termasuk kalimat...",
     options: ["Tunggal", "Majemuk sebab-akibat", "Majemuk setara", "Pasif"],
     correctAnswer: 1,
@@ -1802,7 +1802,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 241,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Pekerjaan itu telah selesai.' mengandung kata...",
     options: ["Kata kerja", "Kata benda", "Kata sifat", "Kata bilangan"],
     correctAnswer: 0,
@@ -1811,7 +1811,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 242,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Saya membeli buah, sayur, dan roti di pasar.' menggunakan tanda baca...",
     options: ["Titik", "Koma", "Tanda seru", "Tanda petik"],
     correctAnswer: 1,
@@ -1820,7 +1820,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 243,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Anak itu berlari dengan cepat' termasuk kalimat...",
     options: ["Aktif", "Pasif", "Majemuk", "Tak langsung"],
     correctAnswer: 0,
@@ -1829,7 +1829,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 244,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'kebersihan' merupakan kata bentukan dari kata dasar...",
     options: ["Bersih", "Membersihkan", "Pembersih", "Berbersih"],
     correctAnswer: 0,
@@ -1838,7 +1838,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 245,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang menggunakan imbuhan dengan benar adalah...",
     options: ["Dia menulis surat.", "Dia tulis surat.", "Dia ditulis surat.", "Dia menuliskan surat oleh dia."],
     correctAnswer: 0,
@@ -1847,7 +1847,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 246,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Teks iklan biasanya bertujuan untuk...",
     options: ["Memberi informasi", "Membujuk pembaca", "Menjelaskan proses", "Menguraikan sebab-akibat"],
     correctAnswer: 1,
@@ -1856,7 +1856,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 247,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Teks laporan hasil observasi berisi...",
     options: ["Pendapat pribadi", "Hasil pengamatan", "Cerita fiksi", "Ajakan"],
     correctAnswer: 1,
@@ -1865,7 +1865,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 248,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kata 'bermain' termasuk ke dalam jenis kata...",
     options: ["Benda", "Kerja", "Sifat", "Keterangan"],
     correctAnswer: 1,
@@ -1874,7 +1874,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 249,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat berikut yang menggunakan kata baku adalah...",
     options: ["Saya menonton film di bioskop.", "Saya nonton film di bioskop.", "Saya nontonin film di bioskop.", "Saya liat film di bioskop."],
     correctAnswer: 0,
@@ -1883,7 +1883,7 @@ const allQuestions: Question[] = [
   },
   {
     id: 250,
-    category: "Bahasa Indonesia",
+    category: "bahasa_indonesia",
     question: "Kalimat 'Pohon itu tumbuh di halaman rumah.' termasuk kalimat dengan pola...",
     options: ["S-P", "S-P-O", "S-P-K", "S-P-O-K"],
     correctAnswer: 2,
@@ -1891,10 +1891,10 @@ const allQuestions: Question[] = [
     points: 10
   },
 
-  // ---------------- BAHASA INGGRIS ----------------
+  // ---------------- bahasa_inggris ----------------
   {
   id: 251,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct form: She ____ to school every morning.",
   options: ["go", "goes", "going", "gone"],
   correctAnswer: 1,
@@ -1903,7 +1903,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 252,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "The opposite of 'expensive' is ____.",
   options: ["cheap", "costly", "valuable", "rich"],
   correctAnswer: 0,
@@ -1912,7 +1912,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 253,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "I ____ my homework last night.",
   options: ["do", "does", "did", "doing"],
   correctAnswer: 2,
@@ -1921,7 +1921,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 254,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "What is the plural form of 'child'?",
   options: ["childs", "childes", "children", "childrens"],
   correctAnswer: 2,
@@ -1930,7 +1930,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 255,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "She is taller ____ her sister.",
   options: ["then", "than", "that", "to"],
   correctAnswer: 1,
@@ -1939,7 +1939,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 256,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "We ____ TV when the power went off.",
   options: ["watch", "watched", "were watching", "have watched"],
   correctAnswer: 2,
@@ -1948,7 +1948,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 257,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "They have lived here ____ 2010.",
   options: ["for", "since", "in", "at"],
   correctAnswer: 1,
@@ -1957,7 +1957,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 258,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "The past tense of 'run' is ____.",
   options: ["runned", "ran", "run", "running"],
   correctAnswer: 1,
@@ -1966,7 +1966,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 259,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Complete the sentence: 'If it rains, we ____ stay at home.'",
   options: ["will", "would", "was", "is"],
   correctAnswer: 0,
@@ -1975,7 +1975,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 260,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "What time ____ you go to bed?",
   options: ["do", "does", "did", "doing"],
   correctAnswer: 0,
@@ -1984,7 +1984,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 261,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Find the synonym of 'happy'.",
   options: ["sad", "joyful", "angry", "upset"],
   correctAnswer: 1,
@@ -1993,7 +1993,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 262,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "She is interested ____ art.",
   options: ["on", "in", "at", "to"],
   correctAnswer: 1,
@@ -2002,7 +2002,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 263,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct spelling:",
   options: ["recieve", "receive", "receeve", "receve"],
   correctAnswer: 1,
@@ -2011,7 +2011,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 264,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "I haven’t seen him ____ Monday.",
   options: ["since", "for", "during", "at"],
   correctAnswer: 0,
@@ -2020,7 +2020,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 265,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Which one is a noun?",
   options: ["quickly", "happy", "book", "run"],
   correctAnswer: 2,
@@ -2029,7 +2029,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 266,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘She can’t come because she is sick.’ — The word 'because' shows a ____ relationship.",
   options: ["contrast", "reason", "time", "result"],
   correctAnswer: 1,
@@ -2038,7 +2038,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 267,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct sentence:",
   options: ["He don’t like tea.", "He doesn’t like tea.", "He didn’t likes tea.", "He not like tea."],
   correctAnswer: 1,
@@ -2047,7 +2047,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 268,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "The superlative form of 'good' is ____.",
   options: ["better", "best", "goodest", "most good"],
   correctAnswer: 1,
@@ -2056,7 +2056,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 269,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "He usually ____ his homework in the evening.",
   options: ["do", "does", "did", "done"],
   correctAnswer: 1,
@@ -2065,7 +2065,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 270,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Find the antonym of 'big'.",
   options: ["small", "large", "huge", "giant"],
   correctAnswer: 0,
@@ -2074,7 +2074,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 271,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "My father ____ to work by car every day.",
   options: ["go", "goes", "going", "gone"],
   correctAnswer: 1,
@@ -2083,7 +2083,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 272,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "The past tense of 'eat' is ____.",
   options: ["eated", "eats", "ate", "eating"],
   correctAnswer: 2,
@@ -2092,7 +2092,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 273,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘He runs faster than me.’ — The word 'faster' is a ____ adjective.",
   options: ["positive", "comparative", "superlative", "possessive"],
   correctAnswer: 1,
@@ -2101,7 +2101,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 274,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "We ____ a movie when the phone rang.",
   options: ["watch", "watched", "were watching", "watching"],
   correctAnswer: 2,
@@ -2110,7 +2110,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 275,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct sentence:",
   options: ["She can sings.", "She can sing.", "She cans sing.", "She can to sing."],
   correctAnswer: 1,
@@ -2119,7 +2119,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 276,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘There are many ____ in the garden.’",
   options: ["flower", "flowers", "flor", "flours"],
   correctAnswer: 1,
@@ -2128,7 +2128,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 277,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Complete: ‘The book is ____ the table.’",
   options: ["in", "on", "at", "under"],
   correctAnswer: 1,
@@ -2137,7 +2137,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 278,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Let’s go to the library.’ The word ‘Let’s’ means ____.",
   options: ["Let us", "Let he", "Let me", "Let they"],
   correctAnswer: 0,
@@ -2146,7 +2146,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 279,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Which word has a different vowel sound?",
   options: ["cat", "hat", "car", "bat"],
   correctAnswer: 2,
@@ -2155,7 +2155,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 280,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "The correct question is: ____ you like pizza?",
   options: ["Do", "Does", "Is", "Are"],
   correctAnswer: 0,
@@ -2164,7 +2164,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 281,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘He didn’t come yesterday.’ The word ‘didn’t’ means ____.",
   options: ["did not", "do not", "does not", "was not"],
   correctAnswer: 0,
@@ -2173,7 +2173,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 282,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "What is the past participle of 'write'?",
   options: ["writed", "wrote", "written", "writing"],
   correctAnswer: 2,
@@ -2182,7 +2182,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 283,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘I have already eaten.’ — The tense used is ____.",
   options: ["simple past", "present perfect", "past continuous", "future simple"],
   correctAnswer: 1,
@@ -2191,7 +2191,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 284,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Don’t make noise!’ means ____.",
   options: ["Be quiet", "Talk loudly", "Sing", "Play music"],
   correctAnswer: 0,
@@ -2200,7 +2200,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 285,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct pronoun: ‘This is ____ book.’",
   options: ["me", "mine", "my", "I"],
   correctAnswer: 2,
@@ -2209,7 +2209,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 286,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘He is a doctor.’ — The article ‘a’ is used because ____.",
   options: ["it’s plural", "it starts with vowel sound", "it’s singular and begins with consonant sound", "it’s possessive"],
   correctAnswer: 2,
@@ -2218,7 +2218,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 287,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘My mother is cooking.’ The tense used is ____.",
   options: ["simple present", "present continuous", "past tense", "future tense"],
   correctAnswer: 1,
@@ -2227,7 +2227,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 288,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "The synonym of ‘begin’ is ____.",
   options: ["start", "end", "finish", "stop"],
   correctAnswer: 0,
@@ -2236,7 +2236,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 289,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘The weather is very hot today.’ — The opposite of ‘hot’ is ____.",
   options: ["warm", "cool", "cold", "freezing"],
   correctAnswer: 2,
@@ -2245,7 +2245,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 290,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct sentence:",
   options: ["She don’t plays guitar.", "She doesn’t play guitar.", "She not play guitar.", "She isn’t play guitar."],
   correctAnswer: 1,
@@ -2254,7 +2254,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 291,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘We have lived here for ten years.’ The word ‘for’ shows ____.",
   options: ["reason", "duration", "place", "purpose"],
   correctAnswer: 1,
@@ -2263,7 +2263,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 292,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Can you help me?’ — The sentence is a ____.",
   options: ["statement", "question", "command", "exclamation"],
   correctAnswer: 1,
@@ -2272,7 +2272,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 293,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Please close the door.’ — The word ‘please’ makes the sentence more ____.",
   options: ["rude", "polite", "angry", "strong"],
   correctAnswer: 1,
@@ -2281,7 +2281,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 294,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Where ____ you born?’",
   options: ["is", "was", "were", "are"],
   correctAnswer: 2,
@@ -2290,7 +2290,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 295,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Don’t forget to bring your umbrella.’ — The function of this sentence is to ____.",
   options: ["invite", "advise", "warn", "promise"],
   correctAnswer: 2,
@@ -2299,7 +2299,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 296,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "Choose the correct response: ‘How are you?’",
   options: ["I’m fine, thank you.", "Yes, I am.", "I’m go.", "You are fine."],
   correctAnswer: 0,
@@ -2308,7 +2308,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 297,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘It’s raining. You should take an umbrella.’ — The word ‘should’ expresses ____.",
   options: ["necessity", "advice", "ability", "permission"],
   correctAnswer: 1,
@@ -2317,7 +2317,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 298,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘She speaks English very well.’ — The word ‘well’ is a ____.",
   options: ["noun", "adjective", "adverb", "verb"],
   correctAnswer: 2,
@@ -2326,7 +2326,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 299,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘Let’s go home.’ — The contraction ‘Let’s’ stands for ____.",
   options: ["Let is", "Let us", "Lets", "Let has"],
   correctAnswer: 1,
@@ -2335,7 +2335,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 300,
-  category: "Bahasa Inggris",
+  category: "bahasa_inggris",
   question: "‘She will call you tomorrow.’ — The word ‘will’ shows ____ tense.",
   options: ["past", "present", "future", "perfect"],
   correctAnswer: 2,
@@ -2593,7 +2593,7 @@ const allQuestions: Question[] = [
 {
   id: 326,
   category: "Astronomi",
-  question: "Nama lain dari Bima Sakti dalam bahasa Inggris adalah...",
+  question: "Nama lain dari Bima Sakti dalam bahasa_inggris adalah...",
   options: ["Milky Way", "Galaxy Star", "Space Line", "Solar Path"],
   correctAnswer: 0,
   difficulty: "easy",
