@@ -2894,7 +2894,7 @@ export default function Home() {
   const fetchQuestions = async (categoryId: string) => {
     setIsLoading(true)
     try {
-      const response = await fetch(`/api/questions?category=${categoryId}&limit=10`)
+      const response = await fetch(`/api/questions?category=${categoryId}&limit=50`)
       const data = await response.json()
       if (data.success) {
         setQuestions(data.data)

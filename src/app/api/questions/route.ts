@@ -2347,7 +2347,7 @@ const allQuestions: Question[] = [
 
 {
   id: 301,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet terbesar di tata surya adalah...",
   options: ["Bumi", "Jupiter", "Saturnus", "Neptunus"],
   correctAnswer: 1,
@@ -2356,7 +2356,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 302,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet terdekat dengan Matahari adalah...",
   options: ["Venus", "Merkurius", "Bumi", "Mars"],
   correctAnswer: 1,
@@ -2365,7 +2365,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 303,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Urutan planet dari Matahari dimulai dari...",
   options: ["Bumi", "Merkurius", "Mars", "Venus"],
   correctAnswer: 1,
@@ -2374,7 +2374,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 304,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang dikenal sebagai 'planet merah' adalah...",
   options: ["Venus", "Mars", "Saturnus", "Uranus"],
   correctAnswer: 1,
@@ -2383,7 +2383,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 305,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Saturnus terkenal karena memiliki...",
   options: ["Lautan luas", "Cincin", "Bulan terbesar", "Warna merah"],
   correctAnswer: 1,
@@ -2392,7 +2392,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 306,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bintang terdekat dari Bumi adalah...",
   options: ["Proxima Centauri", "Sirius", "Matahari", "Betelgeuse"],
   correctAnswer: 2,
@@ -2401,7 +2401,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 307,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bulan mengelilingi...",
   options: ["Matahari", "Bumi", "Mars", "Venus"],
   correctAnswer: 1,
@@ -2410,7 +2410,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 308,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Gerhana bulan terjadi ketika...",
   options: [
     "Bulan berada di antara Matahari dan Bumi",
@@ -2424,7 +2424,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 309,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Gerhana matahari terjadi ketika...",
   options: [
     "Bulan berada di antara Matahari dan Bumi",
@@ -2438,7 +2438,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 310,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang memiliki cincin paling mencolok adalah...",
   options: ["Neptunus", "Saturnus", "Uranus", "Jupiter"],
   correctAnswer: 1,
@@ -2447,7 +2447,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 311,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Nama galaksi tempat Bumi berada adalah...",
   options: ["Andromeda", "Bimasakti", "Sombrero", "Whirlpool"],
   correctAnswer: 1,
@@ -2456,7 +2456,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 312,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang memiliki banyak badai besar adalah...",
   options: ["Mars", "Jupiter", "Venus", "Saturnus"],
   correctAnswer: 1,
@@ -2465,7 +2465,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 313,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bulan mengelilingi Bumi dalam waktu sekitar...",
   options: ["7 hari", "14 hari", "27 hari", "30 hari"],
   correctAnswer: 2,
@@ -2474,7 +2474,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 314,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang memiliki suhu terpanas di tata surya adalah...",
   options: ["Merkurius", "Venus", "Mars", "Jupiter"],
   correctAnswer: 1,
@@ -2483,7 +2483,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 315,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bintang yang meledak disebut...",
   options: ["Nebula", "Supernova", "Meteorit", "Komet"],
   correctAnswer: 1,
@@ -2492,7 +2492,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 316,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Tata surya terbentuk sekitar ... tahun yang lalu.",
   options: ["1 juta", "4,6 miliar", "10 juta", "1 miliar"],
   correctAnswer: 1,
@@ -2501,7 +2501,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 317,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang dikenal memiliki rotasi paling cepat adalah...",
   options: ["Jupiter", "Saturnus", "Mars", "Bumi"],
   correctAnswer: 0,
@@ -2510,7 +2510,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 318,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Benda langit yang memantulkan cahaya Matahari adalah...",
   options: ["Bintang", "Bulan", "Nebula", "Matahari"],
   correctAnswer: 1,
@@ -2519,7 +2519,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 319,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Komet tersusun dari...",
   options: ["Batu dan logam", "Es dan debu", "Gas dan air", "Besi dan karbon"],
   correctAnswer: 1,
@@ -2528,7 +2528,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 320,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet terkecil di tata surya adalah...",
   options: ["Mars", "Merkurius", "Venus", "Neptunus"],
   correctAnswer: 1,
@@ -2537,7 +2537,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 321,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Urutan fase Bulan yang benar adalah...",
   options: [
     "Bulan baru – Purnama – Bulan separuh",
@@ -2551,7 +2551,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 322,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang memiliki warna kebiruan karena gas metana adalah...",
   options: ["Saturnus", "Uranus", "Neptunus", "Jupiter"],
   correctAnswer: 2,
@@ -2560,7 +2560,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 323,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Benda langit yang mengorbit planet disebut...",
   options: ["Satelit", "Asteroid", "Komet", "Bintang"],
   correctAnswer: 0,
@@ -2569,7 +2569,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 324,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bulan tidak memancarkan cahaya sendiri, karena...",
   options: [
     "Tidak punya energi",
@@ -2583,7 +2583,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 325,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Jumlah planet di tata surya setelah Pluto tidak dianggap planet adalah...",
   options: ["8", "9", "7", "10"],
   correctAnswer: 0,
@@ -2592,7 +2592,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 326,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Nama lain dari Bima Sakti dalam bahasa_inggris adalah...",
   options: ["Milky Way", "Galaxy Star", "Space Line", "Solar Path"],
   correctAnswer: 0,
@@ -2601,7 +2601,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 327,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang dikenal memiliki banyak bulan adalah...",
   options: ["Mars", "Jupiter", "Venus", "Merkurius"],
   correctAnswer: 1,
@@ -2610,7 +2610,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 328,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bintang yang sangat besar dan panas biasanya berwarna...",
   options: ["Merah", "Kuning", "Putih kebiruan", "Oranye"],
   correctAnswer: 2,
@@ -2619,7 +2619,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 329,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Orbit adalah...",
   options: [
     "Jarak antara dua planet",
@@ -2633,7 +2633,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 330,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang paling jauh dari Matahari adalah...",
   options: ["Neptunus", "Uranus", "Pluto", "Saturnus"],
   correctAnswer: 0,
@@ -2642,7 +2642,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 331,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Galaksi Andromeda berada paling dekat dengan...",
   options: ["Galaksi Triangulum", "Galaksi Bimasakti", "Galaksi Sombrero", "Galaksi M87"],
   correctAnswer: 1,
@@ -2651,7 +2651,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 332,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bintang jatuh sebenarnya adalah...",
   options: ["Bintang yang meledak", "Meteoroid yang terbakar di atmosfer", "Komet kecil", "Satelit alami"],
   correctAnswer: 1,
@@ -2660,7 +2660,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 333,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Lapisan atmosfer yang paling dekat dengan permukaan Bumi disebut...",
   options: ["Stratosfer", "Troposfer", "Mesosfer", "Termosfer"],
   correctAnswer: 1,
@@ -2669,7 +2669,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 334,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Matahari menghasilkan energi melalui proses...",
   options: ["Fusi nuklir", "Fisi nuklir", "Pembakaran kimia", "Reaksi gravitasi"],
   correctAnswer: 0,
@@ -2678,7 +2678,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 335,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang disebut 'raksasa es' adalah...",
   options: ["Uranus dan Neptunus", "Mars dan Bumi", "Jupiter dan Saturnus", "Venus dan Merkurius"],
   correctAnswer: 0,
@@ -2687,7 +2687,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 336,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Periode revolusi Bumi mengelilingi Matahari adalah sekitar...",
   options: ["24 jam", "30 hari", "365 hari", "12 jam"],
   correctAnswer: 2,
@@ -2696,7 +2696,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 337,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bintang lahir dari awan gas dan debu yang disebut...",
   options: ["Meteor", "Nebula", "Komet", "Satelit"],
   correctAnswer: 1,
@@ -2705,7 +2705,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 338,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Rotasi Bumi menyebabkan terjadinya...",
   options: ["Siang dan malam", "Musim", "Gerhana", "Hujan meteor"],
   correctAnswer: 0,
@@ -2714,7 +2714,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 339,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Revolusi Bumi menyebabkan terjadinya...",
   options: ["Gerhana", "Siang malam", "Perubahan musim", "Angin"],
   correctAnswer: 2,
@@ -2723,7 +2723,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 340,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang tidak memiliki satelit alami adalah...",
   options: ["Merkurius dan Venus", "Mars dan Bumi", "Saturnus dan Jupiter", "Uranus dan Neptunus"],
   correctAnswer: 0,
@@ -2732,7 +2732,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 341,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Asteroid umumnya berada di antara orbit planet...",
   options: ["Bumi dan Mars", "Mars dan Jupiter", "Saturnus dan Uranus", "Venus dan Merkurius"],
   correctAnswer: 1,
@@ -2741,7 +2741,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 342,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Gerakan semu tahunan Matahari disebabkan oleh...",
   options: ["Rotasi Bumi", "Revolusi Bumi", "Gerak Bulan", "Gerak planet"],
   correctAnswer: 1,
@@ -2750,7 +2750,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 343,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Bulan purnama terjadi ketika posisi Bulan berada...",
   options: ["Sejajar dengan Matahari", "Berada di belakang Bumi", "Di antara Bumi dan Matahari", "Tepat di atas kutub Bumi"],
   correctAnswer: 1,
@@ -2759,7 +2759,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 344,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Fenomena aurora sering terjadi di daerah...",
   options: ["Khatulistiwa", "Kutub", "Pegunungan", "Laut"],
   correctAnswer: 1,
@@ -2768,7 +2768,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 345,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Benda langit yang disebut ‘planet kerdil’ adalah...",
   options: ["Pluto", "Merkurius", "Neptunus", "Ceres"],
   correctAnswer: 0,
@@ -2777,7 +2777,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 346,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Nama satelit alami terbesar milik Jupiter adalah...",
   options: ["Europa", "Io", "Ganymede", "Callisto"],
   correctAnswer: 2,
@@ -2786,7 +2786,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 347,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Alat untuk mengamati benda langit disebut...",
   options: ["Teleskop", "Mikroskop", "Periskop", "Barometer"],
   correctAnswer: 0,
@@ -2795,7 +2795,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 348,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Jumlah bulan yang dimiliki Bumi adalah...",
   options: ["1", "2", "3", "4"],
   correctAnswer: 0,
@@ -2804,7 +2804,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 349,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Planet yang memiliki arah rotasi berlawanan dengan planet lain adalah...",
   options: ["Venus", "Bumi", "Mars", "Saturnus"],
   correctAnswer: 0,
@@ -2813,7 +2813,7 @@ const allQuestions: Question[] = [
 },
 {
   id: 350,
-  category: "Astronomi",
+  category: "astronomi",
   question: "Tata surya merupakan bagian kecil dari...",
   options: ["Bulan", "Galaksi", "Nebula", "Asteroid"],
   correctAnswer: 1,
