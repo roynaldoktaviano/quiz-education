@@ -39,6 +39,8 @@ const categories = [
   { id: 'sejarah', name: 'Sejarah', icon: BookOpen, color: 'bg-gray-800' },
   { id: 'bahasa_indonesia', name: 'Bahasa Indonesia', icon: BookOpen, color: 'bg-gray-700' },
   { id: 'bahasa_inggris', name: 'Bahasa Inggris', icon: BookOpen, color: 'bg-gray-600' },
+  { id: 'astronomi', name: 'Astronomi', icon: BookOpen, color: 'bg-gray-600' },
+
   
 ];
 const sampleQuestions: Question[] = [
