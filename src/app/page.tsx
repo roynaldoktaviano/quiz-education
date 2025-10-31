@@ -41,7 +41,7 @@ const categories = [
   { id: 'bahasa_inggris', name: 'Bahasa Inggris', icon: BookOpen, color: 'bg-gray-600' },
   { id: 'astronomi', name: 'astronomi', icon: BookOpen, color: 'bg-gray-600' },
 
-  
+
 ];
 const sampleQuestions: Question[] = [
   // ---------------- matematika ----------------
@@ -925,547 +925,547 @@ const sampleQuestions: Question[] = [
     points: 10
   },
   {
-  id: 141,
-  category: "kimia",
-  question: "Bahan bakar yang ramah lingkungan dan dihasilkan dari tumbuhan disebut...",
-  options: ["Bensin", "Solar", "Bioetanol", "Minyak tanah"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 142,
-  category: "kimia",
-  question: "Unsur yang digunakan untuk mengisi balon udara karena ringan adalah...",
-  options: ["Oksigen", "Hidrogen", "Helium", "Nitrogen"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 143,
-  category: "kimia",
-  question: "Bahan kimia dalam baterai yang dapat mencemari lingkungan adalah...",
-  options: ["Kalsium", "Merkuri", "Zat warna", "Amonia"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 144,
-  category: "kimia",
-  question: "Proses pemisahan campuran padat dan cair dengan penyaringan disebut...",
-  options: ["Destilasi", "Filtrasi", "Kristalisasi", "Sublimasi"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 145,
-  category: "kimia",
-  question: "Larutan yang dapat menghantarkan arus listrik disebut...",
-  options: ["Elektrolit", "Non-elektrolit", "Isolator", "Konduktor"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 146,
-  category: "kimia",
-  question: "Proses perubahan gas menjadi cair disebut...",
-  options: ["Mengkristal", "Meleleh", "Mengembun", "Menyublim"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 147,
-  category: "kimia",
-  question: "Zat kimia yang digunakan untuk mensterilkan air kolam renang adalah...",
-  options: ["Klorin", "Amonia", "Oksigen", "Karbon dioksida"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 148,
-  category: "kimia",
-  question: "Perubahan zat padat langsung menjadi gas disebut...",
-  options: ["Menguap", "Sublimasi", "Mengembun", "Meleleh"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 149,
-  category: "kimia",
-  question: "Gas yang membuat soda memiliki gelembung adalah...",
-  options: ["Oksigen", "Hidrogen", "Karbon dioksida", "Nitrogen"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 150,
-  category: "kimia",
-  question: "Bahan yang digunakan sebagai bahan baku pupuk urea adalah...",
-  options: ["Amonia", "Karbon dioksida", "Nitrogen", "Metana"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
+    id: 141,
+    category: "kimia",
+    question: "Bahan bakar yang ramah lingkungan dan dihasilkan dari tumbuhan disebut...",
+    options: ["Bensin", "Solar", "Bioetanol", "Minyak tanah"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 142,
+    category: "kimia",
+    question: "Unsur yang digunakan untuk mengisi balon udara karena ringan adalah...",
+    options: ["Oksigen", "Hidrogen", "Helium", "Nitrogen"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 143,
+    category: "kimia",
+    question: "Bahan kimia dalam baterai yang dapat mencemari lingkungan adalah...",
+    options: ["Kalsium", "Merkuri", "Zat warna", "Amonia"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 144,
+    category: "kimia",
+    question: "Proses pemisahan campuran padat dan cair dengan penyaringan disebut...",
+    options: ["Destilasi", "Filtrasi", "Kristalisasi", "Sublimasi"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 145,
+    category: "kimia",
+    question: "Larutan yang dapat menghantarkan arus listrik disebut...",
+    options: ["Elektrolit", "Non-elektrolit", "Isolator", "Konduktor"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 146,
+    category: "kimia",
+    question: "Proses perubahan gas menjadi cair disebut...",
+    options: ["Mengkristal", "Meleleh", "Mengembun", "Menyublim"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 147,
+    category: "kimia",
+    question: "Zat kimia yang digunakan untuk mensterilkan air kolam renang adalah...",
+    options: ["Klorin", "Amonia", "Oksigen", "Karbon dioksida"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 148,
+    category: "kimia",
+    question: "Perubahan zat padat langsung menjadi gas disebut...",
+    options: ["Menguap", "Sublimasi", "Mengembun", "Meleleh"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 149,
+    category: "kimia",
+    question: "Gas yang membuat soda memiliki gelembung adalah...",
+    options: ["Oksigen", "Hidrogen", "Karbon dioksida", "Nitrogen"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 150,
+    category: "kimia",
+    question: "Bahan yang digunakan sebagai bahan baku pupuk urea adalah...",
+    options: ["Amonia", "Karbon dioksida", "Nitrogen", "Metana"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
 
   // ---------------- sejarah ----------------
   {
-  id: 151,
-  category: "sejarah",
-  question: "Proklamasi kemerdekaan Indonesia dibacakan pada tanggal...",
-  options: ["17 Agustus 1945", "10 November 1945", "1 Juni 1945", "20 Mei 1908"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 152,
-  category: "sejarah",
-  question: "Teks proklamasi kemerdekaan Indonesia diketik oleh...",
-  options: ["Sukarno", "Moh. Hatta", "Sayuti Melik", "Ahmad Subardjo"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 153,
-  category: "sejarah",
-  question: "Tokoh pendiri Budi Utomo adalah...",
-  options: ["Dr. Soetomo", "Ki Hajar Dewantara", "HOS Tjokroaminoto", "Moh. Yamin"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 154,
-  category: "sejarah",
-  question: "Budi Utomo berdiri pada tahun...",
-  options: ["1905", "1908", "1910", "1928"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 155,
-  category: "sejarah",
-  question: "Sumpah Pemuda diikrarkan pada tanggal...",
-  options: ["20 Mei 1908", "28 Oktober 1928", "17 Agustus 1945", "10 November 1945"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 156,
-  category: "sejarah",
-  question: "Tokoh yang dikenal sebagai Bapak Pendidikan Nasional adalah...",
-  options: ["Ki Hajar Dewantara", "Dr. Soetomo", "Soekarno", "Moh. Hatta"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 157,
-  category: "sejarah",
-  question: "Kerajaan Hindu tertua di Indonesia adalah...",
-  options: ["Majapahit", "Kutai", "Sriwijaya", "Tarumanegara"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 158,
-  category: "sejarah",
-  question: "Kerajaan Sriwijaya berpusat di daerah...",
-  options: ["Sumatera Selatan", "Jawa Timur", "Kalimantan", "Sulawesi"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 159,
-  category: "sejarah",
-  question: "Pendiri kerajaan Majapahit adalah...",
-  options: ["Hayam Wuruk", "Raden Wijaya", "Gajah Mada", "Kertanegara"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 160,
-  category: "sejarah",
-  question: "Gajah Mada terkenal dengan ikrarnya yaitu...",
-  options: ["Ikrar Kebulatan Tekad", "Sumpah Palapa", "Piagam Jakarta", "Sumpah Pemuda"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 161,
-  category: "sejarah",
-  question: "Kerajaan Islam pertama di Indonesia adalah...",
-  options: ["Demak", "Samarinda", "Perlak", "Aceh Darussalam"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 162,
-  category: "sejarah",
-  question: "Kerajaan Majapahit mencapai puncak kejayaan pada masa...",
-  options: ["Kertanegara", "Raden Wijaya", "Hayam Wuruk", "Ken Arok"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 163,
-  category: "sejarah",
-  question: "Tokoh yang mengusulkan dasar negara Pancasila adalah...",
-  options: ["Soekarno", "Moh. Hatta", "Soepomo", "Yamin"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 164,
-  category: "sejarah",
-  question: "Peristiwa G30S/PKI terjadi pada tahun...",
-  options: ["1945", "1950", "1965", "1970"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 165,
-  category: "sejarah",
-  question: "Tokoh pejuang wanita dari Aceh adalah...",
-  options: ["Cut Nyak Dien", "R.A. Kartini", "Martha Christina Tiahahu", "Dewi Sartika"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 166,
-  category: "sejarah",
-  question: "Tokoh pejuang wanita yang berasal dari Jepara adalah...",
-  options: ["Cut Nyak Dien", "R.A. Kartini", "Dewi Sartika", "Fatmawati"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 167,
-  category: "sejarah",
-  question: "Perang Diponegoro terjadi pada tahun...",
-  options: ["1825–1830", "1800–1810", "1850–1855", "1900–1905"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 168,
-  category: "sejarah",
-  question: "Tokoh utama dalam Perang Diponegoro adalah...",
-  options: ["Pangeran Antasari", "Sultan Hasanuddin", "Pangeran Diponegoro", "Tuanku Imam Bonjol"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 169,
-  category: "sejarah",
-  question: "Pahlawan nasional dari Kalimantan Selatan adalah...",
-  options: ["Sultan Hasanuddin", "Pangeran Antasari", "Pattimura", "Kapitan Pattimura"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 170,
-  category: "sejarah",
-  question: "Perang Pattimura terjadi di daerah...",
-  options: ["Maluku", "Sumatera", "Jawa", "Sulawesi"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 171,
-  category: "sejarah",
-  question: "Tanggal 10 November diperingati sebagai hari...",
-  options: ["Pahlawan", "Kemerdekaan", "Kebangkitan Nasional", "Koperasi"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 172,
-  category: "sejarah",
-  question: "Tokoh proklamator Indonesia adalah...",
-  options: ["Soekarno dan Hatta", "Soekarno dan Sjahrir", "Hatta dan Sudirman", "Hatta dan Yamin"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 173,
-  category: "sejarah",
-  question: "Perang Tondano terjadi di daerah...",
-  options: ["Sulawesi Utara", "Sumatera Barat", "Kalimantan Timur", "Bali"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 174,
-  category: "sejarah",
-  question: "Organisasi Taman Siswa didirikan oleh...",
-  options: ["Ki Hajar Dewantara", "Dr. Soetomo", "HOS Tjokroaminoto", "Kartini"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 175,
-  category: "sejarah",
-  question: "Tuanku Imam Bonjol memimpin perang di daerah...",
-  options: ["Sumatera Barat", "Aceh", "Jawa Tengah", "Maluku"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 176,
-  category: "sejarah",
-  question: "Sultan Hasanuddin dijuluki sebagai...",
-  options: ["Pahlawan dari Maluku", "Ayam Jantan dari Timur", "Pahlawan dari Aceh", "Raja Jawa"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 177,
-  category: "sejarah",
-  question: "Peristiwa Bandung Lautan Api terjadi pada tahun...",
-  options: ["1945", "1946", "1947", "1948"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 178,
-  category: "sejarah",
-  question: "Pahlawan nasional dari Maluku adalah...",
-  options: ["Pattimura", "Cut Nyak Dien", "Diponegoro", "Sultan Hasanuddin"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 179,
-  category: "sejarah",
-  question: "Perang Puputan terjadi di daerah...",
-  options: ["Bali", "Aceh", "Jawa", "Sulawesi"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 180,
-  category: "sejarah",
-  question: "Perjanjian Renville ditandatangani pada tahun...",
-  options: ["1946", "1947", "1948", "1949"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 181,
-  category: "sejarah",
-  question: "Tujuan utama dari perjanjian Linggarjati adalah...",
-  options: ["Mengakhiri penjajahan", "Mengatur wilayah kekuasaan", "Mengatur hubungan dagang", "Menjalin kerja sama ekonomi"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 182,
-  category: "sejarah",
-  question: "Tokoh pahlawan nasional dari Sulawesi Selatan adalah...",
-  options: ["Pangeran Antasari", "Sultan Hasanuddin", "Pattimura", "Cut Nyak Dien"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 183,
-  category: "sejarah",
-  question: "Organisasi Sarekat Islam berdiri pada tahun...",
-  options: ["1910", "1911", "1912", "1913"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 184,
-  category: "sejarah",
-  question: "Pemimpin pertama Sarekat Islam adalah...",
-  options: ["HOS Tjokroaminoto", "Soekarno", "Ki Hajar Dewantara", "Dr. Soetomo"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 185,
-  category: "sejarah",
-  question: "Perjanjian Bongaya terjadi antara Belanda dan...",
-  options: ["Kerajaan Ternate", "Kerajaan Gowa", "Kerajaan Majapahit", "Kerajaan Sriwijaya"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 186,
-  category: "sejarah",
-  question: "Organisasi PNI didirikan oleh...",
-  options: ["Soekarno", "Moh. Hatta", "Soepomo", "Yamin"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 187,
-  category: "sejarah",
-  question: "Perjanjian Roem-Royen dilakukan pada tahun...",
-  options: ["1948", "1949", "1950", "1951"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 188,
-  category: "sejarah",
-  question: "Negara Indonesia resmi menjadi anggota PBB pada tahun...",
-  options: ["1949", "1950", "1955", "1960"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 189,
-  category: "sejarah",
-  question: "Konferensi Asia-Afrika diadakan di kota...",
-  options: ["Jakarta", "Bandung", "Yogyakarta", "Surabaya"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 190,
-  category: "sejarah",
-  question: "Tujuan utama Konferensi Asia-Afrika adalah...",
-  options: ["Mendirikan PBB", "Menolak kolonialisme", "Membangun ekonomi Asia", "Menentang perang dunia"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 191,
-  category: "sejarah",
-  question: "Pahlawan nasional dari Minahasa adalah...",
-  options: ["Pattimura", "Sam Ratulangi", "Sudirman", "Antasari"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 192,
-  category: "sejarah",
-  question: "Dr. Cipto Mangunkusumo dikenal sebagai tokoh dari organisasi...",
-  options: ["Budi Utomo", "Indische Partij", "Taman Siswa", "PNI"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 193,
-  category: "sejarah",
-  question: "Indische Partij didirikan oleh Douwes Dekker, Cipto Mangunkusumo, dan...",
-  options: ["Ki Hajar Dewantara", "Soekarno", "Moh. Hatta", "Yamin"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 194,
-  category: "sejarah",
-  question: "Kongres Pemuda II dilaksanakan di kota...",
-  options: ["Jakarta", "Bandung", "Yogyakarta", "Surabaya"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 195,
-  category: "sejarah",
-  question: "Pahlawan nasional yang dijuluki 'Bung Tomo' berasal dari kota...",
-  options: ["Surabaya", "Jakarta", "Semarang", "Medan"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 196,
-  category: "sejarah",
-  question: "Isi utama Sumpah Pemuda adalah...",
-  options: ["Satu nusa, satu bangsa, satu bahasa", "Satu tanah air", "Merdeka atau mati", "Cinta tanah air"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 197,
-  category: "sejarah",
-  question: "Peristiwa Rengasdengklok terjadi sebelum...",
-  options: ["Proklamasi", "Kongres Pemuda", "Konferensi Meja Bundar", "Sumpah Pemuda"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 198,
-  category: "sejarah",
-  question: "Konferensi Meja Bundar (KMB) diadakan pada tahun...",
-  options: ["1948", "1949", "1950", "1951"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 199,
-  category: "sejarah",
-  question: "Tokoh utama dalam Perang Padri adalah...",
-  options: ["Pangeran Diponegoro", "Tuanku Imam Bonjol", "Sultan Hasanuddin", "Pattimura"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 200,
-  category: "sejarah",
-  question: "Rumusan dasar negara pertama kali muncul dalam sidang...",
-  options: ["BPUPKI", "PPKI", "KNIP", "DPR"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
+    id: 151,
+    category: "sejarah",
+    question: "Proklamasi kemerdekaan Indonesia dibacakan pada tanggal...",
+    options: ["17 Agustus 1945", "10 November 1945", "1 Juni 1945", "20 Mei 1908"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 152,
+    category: "sejarah",
+    question: "Teks proklamasi kemerdekaan Indonesia diketik oleh...",
+    options: ["Sukarno", "Moh. Hatta", "Sayuti Melik", "Ahmad Subardjo"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 153,
+    category: "sejarah",
+    question: "Tokoh pendiri Budi Utomo adalah...",
+    options: ["Dr. Soetomo", "Ki Hajar Dewantara", "HOS Tjokroaminoto", "Moh. Yamin"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 154,
+    category: "sejarah",
+    question: "Budi Utomo berdiri pada tahun...",
+    options: ["1905", "1908", "1910", "1928"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 155,
+    category: "sejarah",
+    question: "Sumpah Pemuda diikrarkan pada tanggal...",
+    options: ["20 Mei 1908", "28 Oktober 1928", "17 Agustus 1945", "10 November 1945"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 156,
+    category: "sejarah",
+    question: "Tokoh yang dikenal sebagai Bapak Pendidikan Nasional adalah...",
+    options: ["Ki Hajar Dewantara", "Dr. Soetomo", "Soekarno", "Moh. Hatta"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 157,
+    category: "sejarah",
+    question: "Kerajaan Hindu tertua di Indonesia adalah...",
+    options: ["Majapahit", "Kutai", "Sriwijaya", "Tarumanegara"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 158,
+    category: "sejarah",
+    question: "Kerajaan Sriwijaya berpusat di daerah...",
+    options: ["Sumatera Selatan", "Jawa Timur", "Kalimantan", "Sulawesi"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 159,
+    category: "sejarah",
+    question: "Pendiri kerajaan Majapahit adalah...",
+    options: ["Hayam Wuruk", "Raden Wijaya", "Gajah Mada", "Kertanegara"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 160,
+    category: "sejarah",
+    question: "Gajah Mada terkenal dengan ikrarnya yaitu...",
+    options: ["Ikrar Kebulatan Tekad", "Sumpah Palapa", "Piagam Jakarta", "Sumpah Pemuda"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 161,
+    category: "sejarah",
+    question: "Kerajaan Islam pertama di Indonesia adalah...",
+    options: ["Demak", "Samarinda", "Perlak", "Aceh Darussalam"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 162,
+    category: "sejarah",
+    question: "Kerajaan Majapahit mencapai puncak kejayaan pada masa...",
+    options: ["Kertanegara", "Raden Wijaya", "Hayam Wuruk", "Ken Arok"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 163,
+    category: "sejarah",
+    question: "Tokoh yang mengusulkan dasar negara Pancasila adalah...",
+    options: ["Soekarno", "Moh. Hatta", "Soepomo", "Yamin"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 164,
+    category: "sejarah",
+    question: "Peristiwa G30S/PKI terjadi pada tahun...",
+    options: ["1945", "1950", "1965", "1970"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 165,
+    category: "sejarah",
+    question: "Tokoh pejuang wanita dari Aceh adalah...",
+    options: ["Cut Nyak Dien", "R.A. Kartini", "Martha Christina Tiahahu", "Dewi Sartika"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 166,
+    category: "sejarah",
+    question: "Tokoh pejuang wanita yang berasal dari Jepara adalah...",
+    options: ["Cut Nyak Dien", "R.A. Kartini", "Dewi Sartika", "Fatmawati"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 167,
+    category: "sejarah",
+    question: "Perang Diponegoro terjadi pada tahun...",
+    options: ["1825–1830", "1800–1810", "1850–1855", "1900–1905"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 168,
+    category: "sejarah",
+    question: "Tokoh utama dalam Perang Diponegoro adalah...",
+    options: ["Pangeran Antasari", "Sultan Hasanuddin", "Pangeran Diponegoro", "Tuanku Imam Bonjol"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 169,
+    category: "sejarah",
+    question: "Pahlawan nasional dari Kalimantan Selatan adalah...",
+    options: ["Sultan Hasanuddin", "Pangeran Antasari", "Pattimura", "Kapitan Pattimura"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 170,
+    category: "sejarah",
+    question: "Perang Pattimura terjadi di daerah...",
+    options: ["Maluku", "Sumatera", "Jawa", "Sulawesi"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 171,
+    category: "sejarah",
+    question: "Tanggal 10 November diperingati sebagai hari...",
+    options: ["Pahlawan", "Kemerdekaan", "Kebangkitan Nasional", "Koperasi"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 172,
+    category: "sejarah",
+    question: "Tokoh proklamator Indonesia adalah...",
+    options: ["Soekarno dan Hatta", "Soekarno dan Sjahrir", "Hatta dan Sudirman", "Hatta dan Yamin"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 173,
+    category: "sejarah",
+    question: "Perang Tondano terjadi di daerah...",
+    options: ["Sulawesi Utara", "Sumatera Barat", "Kalimantan Timur", "Bali"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 174,
+    category: "sejarah",
+    question: "Organisasi Taman Siswa didirikan oleh...",
+    options: ["Ki Hajar Dewantara", "Dr. Soetomo", "HOS Tjokroaminoto", "Kartini"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 175,
+    category: "sejarah",
+    question: "Tuanku Imam Bonjol memimpin perang di daerah...",
+    options: ["Sumatera Barat", "Aceh", "Jawa Tengah", "Maluku"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 176,
+    category: "sejarah",
+    question: "Sultan Hasanuddin dijuluki sebagai...",
+    options: ["Pahlawan dari Maluku", "Ayam Jantan dari Timur", "Pahlawan dari Aceh", "Raja Jawa"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 177,
+    category: "sejarah",
+    question: "Peristiwa Bandung Lautan Api terjadi pada tahun...",
+    options: ["1945", "1946", "1947", "1948"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 178,
+    category: "sejarah",
+    question: "Pahlawan nasional dari Maluku adalah...",
+    options: ["Pattimura", "Cut Nyak Dien", "Diponegoro", "Sultan Hasanuddin"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 179,
+    category: "sejarah",
+    question: "Perang Puputan terjadi di daerah...",
+    options: ["Bali", "Aceh", "Jawa", "Sulawesi"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 180,
+    category: "sejarah",
+    question: "Perjanjian Renville ditandatangani pada tahun...",
+    options: ["1946", "1947", "1948", "1949"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 181,
+    category: "sejarah",
+    question: "Tujuan utama dari perjanjian Linggarjati adalah...",
+    options: ["Mengakhiri penjajahan", "Mengatur wilayah kekuasaan", "Mengatur hubungan dagang", "Menjalin kerja sama ekonomi"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 182,
+    category: "sejarah",
+    question: "Tokoh pahlawan nasional dari Sulawesi Selatan adalah...",
+    options: ["Pangeran Antasari", "Sultan Hasanuddin", "Pattimura", "Cut Nyak Dien"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 183,
+    category: "sejarah",
+    question: "Organisasi Sarekat Islam berdiri pada tahun...",
+    options: ["1910", "1911", "1912", "1913"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 184,
+    category: "sejarah",
+    question: "Pemimpin pertama Sarekat Islam adalah...",
+    options: ["HOS Tjokroaminoto", "Soekarno", "Ki Hajar Dewantara", "Dr. Soetomo"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 185,
+    category: "sejarah",
+    question: "Perjanjian Bongaya terjadi antara Belanda dan...",
+    options: ["Kerajaan Ternate", "Kerajaan Gowa", "Kerajaan Majapahit", "Kerajaan Sriwijaya"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 186,
+    category: "sejarah",
+    question: "Organisasi PNI didirikan oleh...",
+    options: ["Soekarno", "Moh. Hatta", "Soepomo", "Yamin"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 187,
+    category: "sejarah",
+    question: "Perjanjian Roem-Royen dilakukan pada tahun...",
+    options: ["1948", "1949", "1950", "1951"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 188,
+    category: "sejarah",
+    question: "Negara Indonesia resmi menjadi anggota PBB pada tahun...",
+    options: ["1949", "1950", "1955", "1960"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 189,
+    category: "sejarah",
+    question: "Konferensi Asia-Afrika diadakan di kota...",
+    options: ["Jakarta", "Bandung", "Yogyakarta", "Surabaya"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 190,
+    category: "sejarah",
+    question: "Tujuan utama Konferensi Asia-Afrika adalah...",
+    options: ["Mendirikan PBB", "Menolak kolonialisme", "Membangun ekonomi Asia", "Menentang perang dunia"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 191,
+    category: "sejarah",
+    question: "Pahlawan nasional dari Minahasa adalah...",
+    options: ["Pattimura", "Sam Ratulangi", "Sudirman", "Antasari"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 192,
+    category: "sejarah",
+    question: "Dr. Cipto Mangunkusumo dikenal sebagai tokoh dari organisasi...",
+    options: ["Budi Utomo", "Indische Partij", "Taman Siswa", "PNI"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 193,
+    category: "sejarah",
+    question: "Indische Partij didirikan oleh Douwes Dekker, Cipto Mangunkusumo, dan...",
+    options: ["Ki Hajar Dewantara", "Soekarno", "Moh. Hatta", "Yamin"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 194,
+    category: "sejarah",
+    question: "Kongres Pemuda II dilaksanakan di kota...",
+    options: ["Jakarta", "Bandung", "Yogyakarta", "Surabaya"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 195,
+    category: "sejarah",
+    question: "Pahlawan nasional yang dijuluki 'Bung Tomo' berasal dari kota...",
+    options: ["Surabaya", "Jakarta", "Semarang", "Medan"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 196,
+    category: "sejarah",
+    question: "Isi utama Sumpah Pemuda adalah...",
+    options: ["Satu nusa, satu bangsa, satu bahasa", "Satu tanah air", "Merdeka atau mati", "Cinta tanah air"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 197,
+    category: "sejarah",
+    question: "Peristiwa Rengasdengklok terjadi sebelum...",
+    options: ["Proklamasi", "Kongres Pemuda", "Konferensi Meja Bundar", "Sumpah Pemuda"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 198,
+    category: "sejarah",
+    question: "Konferensi Meja Bundar (KMB) diadakan pada tahun...",
+    options: ["1948", "1949", "1950", "1951"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 199,
+    category: "sejarah",
+    question: "Tokoh utama dalam Perang Padri adalah...",
+    options: ["Pangeran Diponegoro", "Tuanku Imam Bonjol", "Sultan Hasanuddin", "Pattimura"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 200,
+    category: "sejarah",
+    question: "Rumusan dasar negara pertama kali muncul dalam sidang...",
+    options: ["BPUPKI", "PPKI", "KNIP", "DPR"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
 
   // ---------------- bahasa_indonesia ----------------
   {
@@ -1926,933 +1926,933 @@ const sampleQuestions: Question[] = [
 
   // ---------------- bahasa_inggris ----------------
   {
-  id: 251,
-  category: "bahasa_inggris",
-  question: "Choose the correct form: She ____ to school every morning.",
-  options: ["go", "goes", "going", "gone"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 252,
-  category: "bahasa_inggris",
-  question: "The opposite of 'expensive' is ____.",
-  options: ["cheap", "costly", "valuable", "rich"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 253,
-  category: "bahasa_inggris",
-  question: "I ____ my homework last night.",
-  options: ["do", "does", "did", "doing"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 254,
-  category: "bahasa_inggris",
-  question: "What is the plural form of 'child'?",
-  options: ["childs", "childes", "children", "childrens"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 255,
-  category: "bahasa_inggris",
-  question: "She is taller ____ her sister.",
-  options: ["then", "than", "that", "to"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 256,
-  category: "bahasa_inggris",
-  question: "We ____ TV when the power went off.",
-  options: ["watch", "watched", "were watching", "have watched"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 257,
-  category: "bahasa_inggris",
-  question: "They have lived here ____ 2010.",
-  options: ["for", "since", "in", "at"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 258,
-  category: "bahasa_inggris",
-  question: "The past tense of 'run' is ____.",
-  options: ["runned", "ran", "run", "running"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 259,
-  category: "bahasa_inggris",
-  question: "Complete the sentence: 'If it rains, we ____ stay at home.'",
-  options: ["will", "would", "was", "is"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 260,
-  category: "bahasa_inggris",
-  question: "What time ____ you go to bed?",
-  options: ["do", "does", "did", "doing"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 261,
-  category: "bahasa_inggris",
-  question: "Find the synonym of 'happy'.",
-  options: ["sad", "joyful", "angry", "upset"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 262,
-  category: "bahasa_inggris",
-  question: "She is interested ____ art.",
-  options: ["on", "in", "at", "to"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 263,
-  category: "bahasa_inggris",
-  question: "Choose the correct spelling:",
-  options: ["recieve", "receive", "receeve", "receve"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 264,
-  category: "bahasa_inggris",
-  question: "I haven’t seen him ____ Monday.",
-  options: ["since", "for", "during", "at"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 265,
-  category: "bahasa_inggris",
-  question: "Which one is a noun?",
-  options: ["quickly", "happy", "book", "run"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 266,
-  category: "bahasa_inggris",
-  question: "‘She can’t come because she is sick.’ — The word 'because' shows a ____ relationship.",
-  options: ["contrast", "reason", "time", "result"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 267,
-  category: "bahasa_inggris",
-  question: "Choose the correct sentence:",
-  options: ["He don’t like tea.", "He doesn’t like tea.", "He didn’t likes tea.", "He not like tea."],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 268,
-  category: "bahasa_inggris",
-  question: "The superlative form of 'good' is ____.",
-  options: ["better", "best", "goodest", "most good"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 269,
-  category: "bahasa_inggris",
-  question: "He usually ____ his homework in the evening.",
-  options: ["do", "does", "did", "done"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 270,
-  category: "bahasa_inggris",
-  question: "Find the antonym of 'big'.",
-  options: ["small", "large", "huge", "giant"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 271,
-  category: "bahasa_inggris",
-  question: "My father ____ to work by car every day.",
-  options: ["go", "goes", "going", "gone"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 272,
-  category: "bahasa_inggris",
-  question: "The past tense of 'eat' is ____.",
-  options: ["eated", "eats", "ate", "eating"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 273,
-  category: "bahasa_inggris",
-  question: "‘He runs faster than me.’ — The word 'faster' is a ____ adjective.",
-  options: ["positive", "comparative", "superlative", "possessive"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 274,
-  category: "bahasa_inggris",
-  question: "We ____ a movie when the phone rang.",
-  options: ["watch", "watched", "were watching", "watching"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 275,
-  category: "bahasa_inggris",
-  question: "Choose the correct sentence:",
-  options: ["She can sings.", "She can sing.", "She cans sing.", "She can to sing."],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 276,
-  category: "bahasa_inggris",
-  question: "‘There are many ____ in the garden.’",
-  options: ["flower", "flowers", "flor", "flours"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 277,
-  category: "bahasa_inggris",
-  question: "Complete: ‘The book is ____ the table.’",
-  options: ["in", "on", "at", "under"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 278,
-  category: "bahasa_inggris",
-  question: "‘Let’s go to the library.’ The word ‘Let’s’ means ____.",
-  options: ["Let us", "Let he", "Let me", "Let they"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 279,
-  category: "bahasa_inggris",
-  question: "Which word has a different vowel sound?",
-  options: ["cat", "hat", "car", "bat"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 280,
-  category: "bahasa_inggris",
-  question: "The correct question is: ____ you like pizza?",
-  options: ["Do", "Does", "Is", "Are"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 281,
-  category: "bahasa_inggris",
-  question: "‘He didn’t come yesterday.’ The word ‘didn’t’ means ____.",
-  options: ["did not", "do not", "does not", "was not"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 282,
-  category: "bahasa_inggris",
-  question: "What is the past participle of 'write'?",
-  options: ["writed", "wrote", "written", "writing"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 283,
-  category: "bahasa_inggris",
-  question: "‘I have already eaten.’ — The tense used is ____.",
-  options: ["simple past", "present perfect", "past continuous", "future simple"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 284,
-  category: "bahasa_inggris",
-  question: "‘Don’t make noise!’ means ____.",
-  options: ["Be quiet", "Talk loudly", "Sing", "Play music"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 285,
-  category: "bahasa_inggris",
-  question: "Choose the correct pronoun: ‘This is ____ book.’",
-  options: ["me", "mine", "my", "I"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 286,
-  category: "bahasa_inggris",
-  question: "‘He is a doctor.’ — The article ‘a’ is used because ____.",
-  options: ["it’s plural", "it starts with vowel sound", "it’s singular and begins with consonant sound", "it’s possessive"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 287,
-  category: "bahasa_inggris",
-  question: "‘My mother is cooking.’ The tense used is ____.",
-  options: ["simple present", "present continuous", "past tense", "future tense"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 288,
-  category: "bahasa_inggris",
-  question: "The synonym of ‘begin’ is ____.",
-  options: ["start", "end", "finish", "stop"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 289,
-  category: "bahasa_inggris",
-  question: "‘The weather is very hot today.’ — The opposite of ‘hot’ is ____.",
-  options: ["warm", "cool", "cold", "freezing"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 290,
-  category: "bahasa_inggris",
-  question: "Choose the correct sentence:",
-  options: ["She don’t plays guitar.", "She doesn’t play guitar.", "She not play guitar.", "She isn’t play guitar."],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 291,
-  category: "bahasa_inggris",
-  question: "‘We have lived here for ten years.’ The word ‘for’ shows ____.",
-  options: ["reason", "duration", "place", "purpose"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 292,
-  category: "bahasa_inggris",
-  question: "‘Can you help me?’ — The sentence is a ____.",
-  options: ["statement", "question", "command", "exclamation"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 293,
-  category: "bahasa_inggris",
-  question: "‘Please close the door.’ — The word ‘please’ makes the sentence more ____.",
-  options: ["rude", "polite", "angry", "strong"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 294,
-  category: "bahasa_inggris",
-  question: "‘Where ____ you born?’",
-  options: ["is", "was", "were", "are"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 295,
-  category: "bahasa_inggris",
-  question: "‘Don’t forget to bring your umbrella.’ — The function of this sentence is to ____.",
-  options: ["invite", "advise", "warn", "promise"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 296,
-  category: "bahasa_inggris",
-  question: "Choose the correct response: ‘How are you?’",
-  options: ["I’m fine, thank you.", "Yes, I am.", "I’m go.", "You are fine."],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 297,
-  category: "bahasa_inggris",
-  question: "‘It’s raining. You should take an umbrella.’ — The word ‘should’ expresses ____.",
-  options: ["necessity", "advice", "ability", "permission"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 298,
-  category: "bahasa_inggris",
-  question: "‘She speaks English very well.’ — The word ‘well’ is a ____.",
-  options: ["noun", "adjective", "adverb", "verb"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 299,
-  category: "bahasa_inggris",
-  question: "‘Let’s go home.’ — The contraction ‘Let’s’ stands for ____.",
-  options: ["Let is", "Let us", "Lets", "Let has"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 300,
-  category: "bahasa_inggris",
-  question: "‘She will call you tomorrow.’ — The word ‘will’ shows ____ tense.",
-  options: ["past", "present", "future", "perfect"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
+    id: 251,
+    category: "bahasa_inggris",
+    question: "Choose the correct form: She ____ to school every morning.",
+    options: ["go", "goes", "going", "gone"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 252,
+    category: "bahasa_inggris",
+    question: "The opposite of 'expensive' is ____.",
+    options: ["cheap", "costly", "valuable", "rich"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 253,
+    category: "bahasa_inggris",
+    question: "I ____ my homework last night.",
+    options: ["do", "does", "did", "doing"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 254,
+    category: "bahasa_inggris",
+    question: "What is the plural form of 'child'?",
+    options: ["childs", "childes", "children", "childrens"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 255,
+    category: "bahasa_inggris",
+    question: "She is taller ____ her sister.",
+    options: ["then", "than", "that", "to"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 256,
+    category: "bahasa_inggris",
+    question: "We ____ TV when the power went off.",
+    options: ["watch", "watched", "were watching", "have watched"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 257,
+    category: "bahasa_inggris",
+    question: "They have lived here ____ 2010.",
+    options: ["for", "since", "in", "at"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 258,
+    category: "bahasa_inggris",
+    question: "The past tense of 'run' is ____.",
+    options: ["runned", "ran", "run", "running"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 259,
+    category: "bahasa_inggris",
+    question: "Complete the sentence: 'If it rains, we ____ stay at home.'",
+    options: ["will", "would", "was", "is"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 260,
+    category: "bahasa_inggris",
+    question: "What time ____ you go to bed?",
+    options: ["do", "does", "did", "doing"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 261,
+    category: "bahasa_inggris",
+    question: "Find the synonym of 'happy'.",
+    options: ["sad", "joyful", "angry", "upset"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 262,
+    category: "bahasa_inggris",
+    question: "She is interested ____ art.",
+    options: ["on", "in", "at", "to"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 263,
+    category: "bahasa_inggris",
+    question: "Choose the correct spelling:",
+    options: ["recieve", "receive", "receeve", "receve"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 264,
+    category: "bahasa_inggris",
+    question: "I haven’t seen him ____ Monday.",
+    options: ["since", "for", "during", "at"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 265,
+    category: "bahasa_inggris",
+    question: "Which one is a noun?",
+    options: ["quickly", "happy", "book", "run"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 266,
+    category: "bahasa_inggris",
+    question: "‘She can’t come because she is sick.’ — The word 'because' shows a ____ relationship.",
+    options: ["contrast", "reason", "time", "result"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 267,
+    category: "bahasa_inggris",
+    question: "Choose the correct sentence:",
+    options: ["He don’t like tea.", "He doesn’t like tea.", "He didn’t likes tea.", "He not like tea."],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 268,
+    category: "bahasa_inggris",
+    question: "The superlative form of 'good' is ____.",
+    options: ["better", "best", "goodest", "most good"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 269,
+    category: "bahasa_inggris",
+    question: "He usually ____ his homework in the evening.",
+    options: ["do", "does", "did", "done"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 270,
+    category: "bahasa_inggris",
+    question: "Find the antonym of 'big'.",
+    options: ["small", "large", "huge", "giant"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 271,
+    category: "bahasa_inggris",
+    question: "My father ____ to work by car every day.",
+    options: ["go", "goes", "going", "gone"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 272,
+    category: "bahasa_inggris",
+    question: "The past tense of 'eat' is ____.",
+    options: ["eated", "eats", "ate", "eating"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 273,
+    category: "bahasa_inggris",
+    question: "‘He runs faster than me.’ — The word 'faster' is a ____ adjective.",
+    options: ["positive", "comparative", "superlative", "possessive"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 274,
+    category: "bahasa_inggris",
+    question: "We ____ a movie when the phone rang.",
+    options: ["watch", "watched", "were watching", "watching"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 275,
+    category: "bahasa_inggris",
+    question: "Choose the correct sentence:",
+    options: ["She can sings.", "She can sing.", "She cans sing.", "She can to sing."],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 276,
+    category: "bahasa_inggris",
+    question: "‘There are many ____ in the garden.’",
+    options: ["flower", "flowers", "flor", "flours"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 277,
+    category: "bahasa_inggris",
+    question: "Complete: ‘The book is ____ the table.’",
+    options: ["in", "on", "at", "under"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 278,
+    category: "bahasa_inggris",
+    question: "‘Let’s go to the library.’ The word ‘Let’s’ means ____.",
+    options: ["Let us", "Let he", "Let me", "Let they"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 279,
+    category: "bahasa_inggris",
+    question: "Which word has a different vowel sound?",
+    options: ["cat", "hat", "car", "bat"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 280,
+    category: "bahasa_inggris",
+    question: "The correct question is: ____ you like pizza?",
+    options: ["Do", "Does", "Is", "Are"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 281,
+    category: "bahasa_inggris",
+    question: "‘He didn’t come yesterday.’ The word ‘didn’t’ means ____.",
+    options: ["did not", "do not", "does not", "was not"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 282,
+    category: "bahasa_inggris",
+    question: "What is the past participle of 'write'?",
+    options: ["writed", "wrote", "written", "writing"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 283,
+    category: "bahasa_inggris",
+    question: "‘I have already eaten.’ — The tense used is ____.",
+    options: ["simple past", "present perfect", "past continuous", "future simple"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 284,
+    category: "bahasa_inggris",
+    question: "‘Don’t make noise!’ means ____.",
+    options: ["Be quiet", "Talk loudly", "Sing", "Play music"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 285,
+    category: "bahasa_inggris",
+    question: "Choose the correct pronoun: ‘This is ____ book.’",
+    options: ["me", "mine", "my", "I"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 286,
+    category: "bahasa_inggris",
+    question: "‘He is a doctor.’ — The article ‘a’ is used because ____.",
+    options: ["it’s plural", "it starts with vowel sound", "it’s singular and begins with consonant sound", "it’s possessive"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 287,
+    category: "bahasa_inggris",
+    question: "‘My mother is cooking.’ The tense used is ____.",
+    options: ["simple present", "present continuous", "past tense", "future tense"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 288,
+    category: "bahasa_inggris",
+    question: "The synonym of ‘begin’ is ____.",
+    options: ["start", "end", "finish", "stop"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 289,
+    category: "bahasa_inggris",
+    question: "‘The weather is very hot today.’ — The opposite of ‘hot’ is ____.",
+    options: ["warm", "cool", "cold", "freezing"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 290,
+    category: "bahasa_inggris",
+    question: "Choose the correct sentence:",
+    options: ["She don’t plays guitar.", "She doesn’t play guitar.", "She not play guitar.", "She isn’t play guitar."],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 291,
+    category: "bahasa_inggris",
+    question: "‘We have lived here for ten years.’ The word ‘for’ shows ____.",
+    options: ["reason", "duration", "place", "purpose"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 292,
+    category: "bahasa_inggris",
+    question: "‘Can you help me?’ — The sentence is a ____.",
+    options: ["statement", "question", "command", "exclamation"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 293,
+    category: "bahasa_inggris",
+    question: "‘Please close the door.’ — The word ‘please’ makes the sentence more ____.",
+    options: ["rude", "polite", "angry", "strong"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 294,
+    category: "bahasa_inggris",
+    question: "‘Where ____ you born?’",
+    options: ["is", "was", "were", "are"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 295,
+    category: "bahasa_inggris",
+    question: "‘Don’t forget to bring your umbrella.’ — The function of this sentence is to ____.",
+    options: ["invite", "advise", "warn", "promise"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 296,
+    category: "bahasa_inggris",
+    question: "Choose the correct response: ‘How are you?’",
+    options: ["I’m fine, thank you.", "Yes, I am.", "I’m go.", "You are fine."],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 297,
+    category: "bahasa_inggris",
+    question: "‘It’s raining. You should take an umbrella.’ — The word ‘should’ expresses ____.",
+    options: ["necessity", "advice", "ability", "permission"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 298,
+    category: "bahasa_inggris",
+    question: "‘She speaks English very well.’ — The word ‘well’ is a ____.",
+    options: ["noun", "adjective", "adverb", "verb"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 299,
+    category: "bahasa_inggris",
+    question: "‘Let’s go home.’ — The contraction ‘Let’s’ stands for ____.",
+    options: ["Let is", "Let us", "Lets", "Let has"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 300,
+    category: "bahasa_inggris",
+    question: "‘She will call you tomorrow.’ — The word ‘will’ shows ____ tense.",
+    options: ["past", "present", "future", "perfect"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
 
-// atronomi 
+  // atronomi 
 
-{
-  id: 301,
-  category: "astronomi",
-  question: "Planet terbesar di tata surya adalah...",
-  options: ["Bumi", "Jupiter", "Saturnus", "Neptunus"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 302,
-  category: "astronomi",
-  question: "Planet terdekat dengan Matahari adalah...",
-  options: ["Venus", "Merkurius", "Bumi", "Mars"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 303,
-  category: "astronomi",
-  question: "Urutan planet dari Matahari dimulai dari...",
-  options: ["Bumi", "Merkurius", "Mars", "Venus"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 304,
-  category: "astronomi",
-  question: "Planet yang dikenal sebagai 'planet merah' adalah...",
-  options: ["Venus", "Mars", "Saturnus", "Uranus"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 305,
-  category: "astronomi",
-  question: "Saturnus terkenal karena memiliki...",
-  options: ["Lautan luas", "Cincin", "Bulan terbesar", "Warna merah"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 306,
-  category: "astronomi",
-  question: "Bintang terdekat dari Bumi adalah...",
-  options: ["Proxima Centauri", "Sirius", "Matahari", "Betelgeuse"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 307,
-  category: "astronomi",
-  question: "Bulan mengelilingi...",
-  options: ["Matahari", "Bumi", "Mars", "Venus"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 308,
-  category: "astronomi",
-  question: "Gerhana bulan terjadi ketika...",
-  options: [
-    "Bulan berada di antara Matahari dan Bumi",
-    "Bumi berada di antara Matahari dan Bulan",
-    "Matahari berada di antara Bumi dan Bulan",
-    "Bulan menutupi Matahari"
-  ],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 309,
-  category: "astronomi",
-  question: "Gerhana matahari terjadi ketika...",
-  options: [
-    "Bulan berada di antara Matahari dan Bumi",
-    "Bumi berada di antara Matahari dan Bulan",
-    "Bulan tertutup bayangan Bumi",
-    "Matahari menghilang di balik Bumi"
-  ],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 310,
-  category: "astronomi",
-  question: "Planet yang memiliki cincin paling mencolok adalah...",
-  options: ["Neptunus", "Saturnus", "Uranus", "Jupiter"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 311,
-  category: "astronomi",
-  question: "Nama galaksi tempat Bumi berada adalah...",
-  options: ["Andromeda", "Bimasakti", "Sombrero", "Whirlpool"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 312,
-  category: "astronomi",
-  question: "Planet yang memiliki banyak badai besar adalah...",
-  options: ["Mars", "Jupiter", "Venus", "Saturnus"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 313,
-  category: "astronomi",
-  question: "Bulan mengelilingi Bumi dalam waktu sekitar...",
-  options: ["7 hari", "14 hari", "27 hari", "30 hari"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 314,
-  category: "astronomi",
-  question: "Planet yang memiliki suhu terpanas di tata surya adalah...",
-  options: ["Merkurius", "Venus", "Mars", "Jupiter"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 315,
-  category: "astronomi",
-  question: "Bintang yang meledak disebut...",
-  options: ["Nebula", "Supernova", "Meteorit", "Komet"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 316,
-  category: "astronomi",
-  question: "Tata surya terbentuk sekitar ... tahun yang lalu.",
-  options: ["1 juta", "4,6 miliar", "10 juta", "1 miliar"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 317,
-  category: "astronomi",
-  question: "Planet yang dikenal memiliki rotasi paling cepat adalah...",
-  options: ["Jupiter", "Saturnus", "Mars", "Bumi"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 318,
-  category: "astronomi",
-  question: "Benda langit yang memantulkan cahaya Matahari adalah...",
-  options: ["Bintang", "Bulan", "Nebula", "Matahari"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 319,
-  category: "astronomi",
-  question: "Komet tersusun dari...",
-  options: ["Batu dan logam", "Es dan debu", "Gas dan air", "Besi dan karbon"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 320,
-  category: "astronomi",
-  question: "Planet terkecil di tata surya adalah...",
-  options: ["Mars", "Merkurius", "Venus", "Neptunus"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 321,
-  category: "astronomi",
-  question: "Urutan fase Bulan yang benar adalah...",
-  options: [
-    "Bulan baru – Purnama – Bulan separuh",
-    "Bulan baru – Bulan separuh – Purnama",
-    "Purnama – Bulan baru – Bulan sabit",
-    "Bulan sabit – Purnama – Bulan baru"
-  ],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 322,
-  category: "astronomi",
-  question: "Planet yang memiliki warna kebiruan karena gas metana adalah...",
-  options: ["Saturnus", "Uranus", "Neptunus", "Jupiter"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 323,
-  category: "astronomi",
-  question: "Benda langit yang mengorbit planet disebut...",
-  options: ["Satelit", "Asteroid", "Komet", "Bintang"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 324,
-  category: "astronomi",
-  question: "Bulan tidak memancarkan cahaya sendiri, karena...",
-  options: [
-    "Tidak punya energi",
-    "Hanya memantulkan cahaya Matahari",
-    "Terlalu jauh dari Bumi",
-    "Tertutup atmosfer"
-  ],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 325,
-  category: "astronomi",
-  question: "Jumlah planet di tata surya setelah Pluto tidak dianggap planet adalah...",
-  options: ["8", "9", "7", "10"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 326,
-  category: "astronomi",
-  question: "Nama lain dari Bima Sakti dalam bahasa_inggris adalah...",
-  options: ["Milky Way", "Galaxy Star", "Space Line", "Solar Path"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 327,
-  category: "astronomi",
-  question: "Planet yang dikenal memiliki banyak bulan adalah...",
-  options: ["Mars", "Jupiter", "Venus", "Merkurius"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 328,
-  category: "astronomi",
-  question: "Bintang yang sangat besar dan panas biasanya berwarna...",
-  options: ["Merah", "Kuning", "Putih kebiruan", "Oranye"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 329,
-  category: "astronomi",
-  question: "Orbit adalah...",
-  options: [
-    "Jarak antara dua planet",
-    "Lintasan benda langit saat mengelilingi benda lain",
-    "Arah pergerakan angin di luar angkasa",
-    "Lapisan atmosfer luar Bumi"
-  ],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 330,
-  category: "astronomi",
-  question: "Planet yang paling jauh dari Matahari adalah...",
-  options: ["Neptunus", "Uranus", "Pluto", "Saturnus"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 331,
-  category: "astronomi",
-  question: "Galaksi Andromeda berada paling dekat dengan...",
-  options: ["Galaksi Triangulum", "Galaksi Bimasakti", "Galaksi Sombrero", "Galaksi M87"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 332,
-  category: "astronomi",
-  question: "Bintang jatuh sebenarnya adalah...",
-  options: ["Bintang yang meledak", "Meteoroid yang terbakar di atmosfer", "Komet kecil", "Satelit alami"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 333,
-  category: "astronomi",
-  question: "Lapisan atmosfer yang paling dekat dengan permukaan Bumi disebut...",
-  options: ["Stratosfer", "Troposfer", "Mesosfer", "Termosfer"],
-  correctAnswer: 1,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 334,
-  category: "astronomi",
-  question: "Matahari menghasilkan energi melalui proses...",
-  options: ["Fusi nuklir", "Fisi nuklir", "Pembakaran kimia", "Reaksi gravitasi"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 335,
-  category: "astronomi",
-  question: "Planet yang disebut 'raksasa es' adalah...",
-  options: ["Uranus dan Neptunus", "Mars dan Bumi", "Jupiter dan Saturnus", "Venus dan Merkurius"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 336,
-  category: "astronomi",
-  question: "Periode revolusi Bumi mengelilingi Matahari adalah sekitar...",
-  options: ["24 jam", "30 hari", "365 hari", "12 jam"],
-  correctAnswer: 2,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 337,
-  category: "astronomi",
-  question: "Bintang lahir dari awan gas dan debu yang disebut...",
-  options: ["Meteor", "Nebula", "Komet", "Satelit"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 338,
-  category: "astronomi",
-  question: "Rotasi Bumi menyebabkan terjadinya...",
-  options: ["Siang dan malam", "Musim", "Gerhana", "Hujan meteor"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 339,
-  category: "astronomi",
-  question: "Revolusi Bumi menyebabkan terjadinya...",
-  options: ["Gerhana", "Siang malam", "Perubahan musim", "Angin"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 340,
-  category: "astronomi",
-  question: "Planet yang tidak memiliki satelit alami adalah...",
-  options: ["Merkurius dan Venus", "Mars dan Bumi", "Saturnus dan Jupiter", "Uranus dan Neptunus"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 341,
-  category: "astronomi",
-  question: "Asteroid umumnya berada di antara orbit planet...",
-  options: ["Bumi dan Mars", "Mars dan Jupiter", "Saturnus dan Uranus", "Venus dan Merkurius"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 342,
-  category: "astronomi",
-  question: "Gerakan semu tahunan Matahari disebabkan oleh...",
-  options: ["Rotasi Bumi", "Revolusi Bumi", "Gerak Bulan", "Gerak planet"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 343,
-  category: "astronomi",
-  question: "Bulan purnama terjadi ketika posisi Bulan berada...",
-  options: ["Sejajar dengan Matahari", "Berada di belakang Bumi", "Di antara Bumi dan Matahari", "Tepat di atas kutub Bumi"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 344,
-  category: "astronomi",
-  question: "Fenomena aurora sering terjadi di daerah...",
-  options: ["Khatulistiwa", "Kutub", "Pegunungan", "Laut"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 345,
-  category: "astronomi",
-  question: "Benda langit yang disebut ‘planet kerdil’ adalah...",
-  options: ["Pluto", "Merkurius", "Neptunus", "Ceres"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 346,
-  category: "astronomi",
-  question: "Nama satelit alami terbesar milik Jupiter adalah...",
-  options: ["Europa", "Io", "Ganymede", "Callisto"],
-  correctAnswer: 2,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 347,
-  category: "astronomi",
-  question: "Alat untuk mengamati benda langit disebut...",
-  options: ["Teleskop", "Mikroskop", "Periskop", "Barometer"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 348,
-  category: "astronomi",
-  question: "Jumlah bulan yang dimiliki Bumi adalah...",
-  options: ["1", "2", "3", "4"],
-  correctAnswer: 0,
-  difficulty: "easy",
-  points: 5
-},
-{
-  id: 349,
-  category: "astronomi",
-  question: "Planet yang memiliki arah rotasi berlawanan dengan planet lain adalah...",
-  options: ["Venus", "Bumi", "Mars", "Saturnus"],
-  correctAnswer: 0,
-  difficulty: "medium",
-  points: 10
-},
-{
-  id: 350,
-  category: "astronomi",
-  question: "Tata surya merupakan bagian kecil dari...",
-  options: ["Bulan", "Galaksi", "Nebula", "Asteroid"],
-  correctAnswer: 1,
-  difficulty: "medium",
-  points: 10
-}
+  {
+    id: 301,
+    category: "astronomi",
+    question: "Planet terbesar di tata surya adalah...",
+    options: ["Bumi", "Jupiter", "Saturnus", "Neptunus"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 302,
+    category: "astronomi",
+    question: "Planet terdekat dengan Matahari adalah...",
+    options: ["Venus", "Merkurius", "Bumi", "Mars"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 303,
+    category: "astronomi",
+    question: "Urutan planet dari Matahari dimulai dari...",
+    options: ["Bumi", "Merkurius", "Mars", "Venus"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 304,
+    category: "astronomi",
+    question: "Planet yang dikenal sebagai 'planet merah' adalah...",
+    options: ["Venus", "Mars", "Saturnus", "Uranus"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 305,
+    category: "astronomi",
+    question: "Saturnus terkenal karena memiliki...",
+    options: ["Lautan luas", "Cincin", "Bulan terbesar", "Warna merah"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 306,
+    category: "astronomi",
+    question: "Bintang terdekat dari Bumi adalah...",
+    options: ["Proxima Centauri", "Sirius", "Matahari", "Betelgeuse"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 307,
+    category: "astronomi",
+    question: "Bulan mengelilingi...",
+    options: ["Matahari", "Bumi", "Mars", "Venus"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 308,
+    category: "astronomi",
+    question: "Gerhana bulan terjadi ketika...",
+    options: [
+      "Bulan berada di antara Matahari dan Bumi",
+      "Bumi berada di antara Matahari dan Bulan",
+      "Matahari berada di antara Bumi dan Bulan",
+      "Bulan menutupi Matahari"
+    ],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 309,
+    category: "astronomi",
+    question: "Gerhana matahari terjadi ketika...",
+    options: [
+      "Bulan berada di antara Matahari dan Bumi",
+      "Bumi berada di antara Matahari dan Bulan",
+      "Bulan tertutup bayangan Bumi",
+      "Matahari menghilang di balik Bumi"
+    ],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 310,
+    category: "astronomi",
+    question: "Planet yang memiliki cincin paling mencolok adalah...",
+    options: ["Neptunus", "Saturnus", "Uranus", "Jupiter"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 311,
+    category: "astronomi",
+    question: "Nama galaksi tempat Bumi berada adalah...",
+    options: ["Andromeda", "Bimasakti", "Sombrero", "Whirlpool"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 312,
+    category: "astronomi",
+    question: "Planet yang memiliki banyak badai besar adalah...",
+    options: ["Mars", "Jupiter", "Venus", "Saturnus"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 313,
+    category: "astronomi",
+    question: "Bulan mengelilingi Bumi dalam waktu sekitar...",
+    options: ["7 hari", "14 hari", "27 hari", "30 hari"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 314,
+    category: "astronomi",
+    question: "Planet yang memiliki suhu terpanas di tata surya adalah...",
+    options: ["Merkurius", "Venus", "Mars", "Jupiter"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 315,
+    category: "astronomi",
+    question: "Bintang yang meledak disebut...",
+    options: ["Nebula", "Supernova", "Meteorit", "Komet"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 316,
+    category: "astronomi",
+    question: "Tata surya terbentuk sekitar ... tahun yang lalu.",
+    options: ["1 juta", "4,6 miliar", "10 juta", "1 miliar"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 317,
+    category: "astronomi",
+    question: "Planet yang dikenal memiliki rotasi paling cepat adalah...",
+    options: ["Jupiter", "Saturnus", "Mars", "Bumi"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 318,
+    category: "astronomi",
+    question: "Benda langit yang memantulkan cahaya Matahari adalah...",
+    options: ["Bintang", "Bulan", "Nebula", "Matahari"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 319,
+    category: "astronomi",
+    question: "Komet tersusun dari...",
+    options: ["Batu dan logam", "Es dan debu", "Gas dan air", "Besi dan karbon"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 320,
+    category: "astronomi",
+    question: "Planet terkecil di tata surya adalah...",
+    options: ["Mars", "Merkurius", "Venus", "Neptunus"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 321,
+    category: "astronomi",
+    question: "Urutan fase Bulan yang benar adalah...",
+    options: [
+      "Bulan baru – Purnama – Bulan separuh",
+      "Bulan baru – Bulan separuh – Purnama",
+      "Purnama – Bulan baru – Bulan sabit",
+      "Bulan sabit – Purnama – Bulan baru"
+    ],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 322,
+    category: "astronomi",
+    question: "Planet yang memiliki warna kebiruan karena gas metana adalah...",
+    options: ["Saturnus", "Uranus", "Neptunus", "Jupiter"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 323,
+    category: "astronomi",
+    question: "Benda langit yang mengorbit planet disebut...",
+    options: ["Satelit", "Asteroid", "Komet", "Bintang"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 324,
+    category: "astronomi",
+    question: "Bulan tidak memancarkan cahaya sendiri, karena...",
+    options: [
+      "Tidak punya energi",
+      "Hanya memantulkan cahaya Matahari",
+      "Terlalu jauh dari Bumi",
+      "Tertutup atmosfer"
+    ],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 325,
+    category: "astronomi",
+    question: "Jumlah planet di tata surya setelah Pluto tidak dianggap planet adalah...",
+    options: ["8", "9", "7", "10"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 326,
+    category: "astronomi",
+    question: "Nama lain dari Bima Sakti dalam bahasa_inggris adalah...",
+    options: ["Milky Way", "Galaxy Star", "Space Line", "Solar Path"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 327,
+    category: "astronomi",
+    question: "Planet yang dikenal memiliki banyak bulan adalah...",
+    options: ["Mars", "Jupiter", "Venus", "Merkurius"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 328,
+    category: "astronomi",
+    question: "Bintang yang sangat besar dan panas biasanya berwarna...",
+    options: ["Merah", "Kuning", "Putih kebiruan", "Oranye"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 329,
+    category: "astronomi",
+    question: "Orbit adalah...",
+    options: [
+      "Jarak antara dua planet",
+      "Lintasan benda langit saat mengelilingi benda lain",
+      "Arah pergerakan angin di luar angkasa",
+      "Lapisan atmosfer luar Bumi"
+    ],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 330,
+    category: "astronomi",
+    question: "Planet yang paling jauh dari Matahari adalah...",
+    options: ["Neptunus", "Uranus", "Pluto", "Saturnus"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 331,
+    category: "astronomi",
+    question: "Galaksi Andromeda berada paling dekat dengan...",
+    options: ["Galaksi Triangulum", "Galaksi Bimasakti", "Galaksi Sombrero", "Galaksi M87"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 332,
+    category: "astronomi",
+    question: "Bintang jatuh sebenarnya adalah...",
+    options: ["Bintang yang meledak", "Meteoroid yang terbakar di atmosfer", "Komet kecil", "Satelit alami"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 333,
+    category: "astronomi",
+    question: "Lapisan atmosfer yang paling dekat dengan permukaan Bumi disebut...",
+    options: ["Stratosfer", "Troposfer", "Mesosfer", "Termosfer"],
+    correctAnswer: 1,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 334,
+    category: "astronomi",
+    question: "Matahari menghasilkan energi melalui proses...",
+    options: ["Fusi nuklir", "Fisi nuklir", "Pembakaran kimia", "Reaksi gravitasi"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 335,
+    category: "astronomi",
+    question: "Planet yang disebut 'raksasa es' adalah...",
+    options: ["Uranus dan Neptunus", "Mars dan Bumi", "Jupiter dan Saturnus", "Venus dan Merkurius"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 336,
+    category: "astronomi",
+    question: "Periode revolusi Bumi mengelilingi Matahari adalah sekitar...",
+    options: ["24 jam", "30 hari", "365 hari", "12 jam"],
+    correctAnswer: 2,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 337,
+    category: "astronomi",
+    question: "Bintang lahir dari awan gas dan debu yang disebut...",
+    options: ["Meteor", "Nebula", "Komet", "Satelit"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 338,
+    category: "astronomi",
+    question: "Rotasi Bumi menyebabkan terjadinya...",
+    options: ["Siang dan malam", "Musim", "Gerhana", "Hujan meteor"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 339,
+    category: "astronomi",
+    question: "Revolusi Bumi menyebabkan terjadinya...",
+    options: ["Gerhana", "Siang malam", "Perubahan musim", "Angin"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 340,
+    category: "astronomi",
+    question: "Planet yang tidak memiliki satelit alami adalah...",
+    options: ["Merkurius dan Venus", "Mars dan Bumi", "Saturnus dan Jupiter", "Uranus dan Neptunus"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 341,
+    category: "astronomi",
+    question: "Asteroid umumnya berada di antara orbit planet...",
+    options: ["Bumi dan Mars", "Mars dan Jupiter", "Saturnus dan Uranus", "Venus dan Merkurius"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 342,
+    category: "astronomi",
+    question: "Gerakan semu tahunan Matahari disebabkan oleh...",
+    options: ["Rotasi Bumi", "Revolusi Bumi", "Gerak Bulan", "Gerak planet"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 343,
+    category: "astronomi",
+    question: "Bulan purnama terjadi ketika posisi Bulan berada...",
+    options: ["Sejajar dengan Matahari", "Berada di belakang Bumi", "Di antara Bumi dan Matahari", "Tepat di atas kutub Bumi"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 344,
+    category: "astronomi",
+    question: "Fenomena aurora sering terjadi di daerah...",
+    options: ["Khatulistiwa", "Kutub", "Pegunungan", "Laut"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 345,
+    category: "astronomi",
+    question: "Benda langit yang disebut ‘planet kerdil’ adalah...",
+    options: ["Pluto", "Merkurius", "Neptunus", "Ceres"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 346,
+    category: "astronomi",
+    question: "Nama satelit alami terbesar milik Jupiter adalah...",
+    options: ["Europa", "Io", "Ganymede", "Callisto"],
+    correctAnswer: 2,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 347,
+    category: "astronomi",
+    question: "Alat untuk mengamati benda langit disebut...",
+    options: ["Teleskop", "Mikroskop", "Periskop", "Barometer"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 348,
+    category: "astronomi",
+    question: "Jumlah bulan yang dimiliki Bumi adalah...",
+    options: ["1", "2", "3", "4"],
+    correctAnswer: 0,
+    difficulty: "easy",
+    points: 5
+  },
+  {
+    id: 349,
+    category: "astronomi",
+    question: "Planet yang memiliki arah rotasi berlawanan dengan planet lain adalah...",
+    options: ["Venus", "Bumi", "Mars", "Saturnus"],
+    correctAnswer: 0,
+    difficulty: "medium",
+    points: 10
+  },
+  {
+    id: 350,
+    category: "astronomi",
+    question: "Tata surya merupakan bagian kecil dari...",
+    options: ["Bulan", "Galaksi", "Nebula", "Asteroid"],
+    correctAnswer: 1,
+    difficulty: "medium",
+    points: 10
+  }
 ];
 
 
@@ -2892,25 +2892,37 @@ export default function Home() {
   }, [timeLeft, gameState, showResult])
 
   const fetchQuestions = async (categoryId: string) => {
-    setIsLoading(true)
-    try {
-      const response = await fetch(`/api/questions?category=${categoryId}&limit=50`)
-      const data = await response.json()
-      if (data.success) {
-        setQuestions(data.data)
-      } else {
-        // Fallback to sample questions
-        const categoryQuestions = sampleQuestions.filter(q => q.category === categoryId)
-        setQuestions(categoryQuestions.length > 0 ? categoryQuestions : sampleQuestions)
-      }
-    } catch (error) {
-      // Fallback to sample questions
+  setIsLoading(true)
+  try {
+    const response = await fetch(`/api/questions?category=${categoryId}&limit=10`)
+    const data = await response.json()
+    
+    let questionsToSet: typeof sampleQuestions = []
+
+    if (data.success) {
+      questionsToSet = data.data
+    } else {
       const categoryQuestions = sampleQuestions.filter(q => q.category === categoryId)
-      setQuestions(categoryQuestions.length > 0 ? categoryQuestions : sampleQuestions)
-    } finally {
-      setIsLoading(false)
+      questionsToSet = categoryQuestions.length > 0 ? categoryQuestions : sampleQuestions
     }
+
+    // Shuffle array
+    const shuffled = questionsToSet.sort(() => Math.random() - 0.5)
+
+    // Ambil 10 pertanyaan acak
+    setQuestions(shuffled.slice(0, 10))
+
+  } catch (error) {
+    const categoryQuestions = sampleQuestions.filter(q => q.category === categoryId)
+    const questionsToSet = categoryQuestions.length > 0 ? categoryQuestions : sampleQuestions
+
+    const shuffled = questionsToSet.sort(() => Math.random() - 0.5)
+    setQuestions(shuffled.slice(0, 10))
+  } finally {
+    setIsLoading(false)
   }
+}
+
 
   const refreshLeaderboard = () => {
     setLeaderboard(leaderboardUtils.getLeaderboard())
@@ -2935,13 +2947,13 @@ export default function Home() {
 
   const handleAnswer = (answerIndex: number) => {
     if (showResult) return
-    
+
     setSelectedAnswer(answerIndex)
     setShowResult(true)
-    
+
     const currentQuestion = questions[currentQuestionIndex]
     const isCorrect = answerIndex === currentQuestion.correctAnswer
-    
+
     setGameStats(prev => ({
       ...prev,
       score: isCorrect ? prev.score + currentQuestion.points : prev.score,
@@ -2949,7 +2961,7 @@ export default function Home() {
       totalQuestions: prev.totalQuestions + 1,
       streak: isCorrect ? prev.streak + 1 : 0
     }))
-    
+
     setTimeout(() => {
       if (currentQuestionIndex < questions.length - 1) {
         setCurrentQuestionIndex(prev => prev + 1)
@@ -2968,14 +2980,14 @@ export default function Home() {
 
   const saveToLeaderboard = () => {
     if (!playerName.trim()) return
-    
+
     try {
       const updatedLeaderboard = leaderboardUtils.saveEntry(
         playerName,
         gameStats.score,
         categories.find(c => c.id === selectedCategory)?.name || 'Mixed'
       )
-      
+
       setLeaderboard(updatedLeaderboard)
       setGameState('leaderboard')
     } catch (error) {
@@ -2988,12 +3000,12 @@ export default function Home() {
         category: categories.find(c => c.id === selectedCategory)?.name || 'Mixed',
         timestamp: new Date().toISOString()
       }
-      
+
       const updatedLeaderboard = [...leaderboard, newEntry]
         .sort((a, b) => b.score - a.score)
         .slice(0, 10)
         .map((entry, index) => ({ ...entry, rank: index + 1 }))
-      
+
       setLeaderboard(updatedLeaderboard)
       setGameState('leaderboard')
     }
@@ -3026,7 +3038,7 @@ export default function Home() {
       <div className="min-h-screen">
         <Navigation />
         <HeroSection />
-        
+
         {/* Play Section */}
         <section id="play" className="py-20 bg-white">
           <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -3057,7 +3069,7 @@ export default function Home() {
                       <CardDescription>Uji Pengetahuanmu tentang {category.name.toLowerCase()}</CardDescription>
                     </CardHeader>
                     <CardContent>
-                      <Button 
+                      <Button
                         onClick={() => startGame(category.id)}
                         className="w-full cursor-pointer bg-gray-800 hover:bg-gray-900 text-white font-semibold py-3 rounded-xl transition-all duration-300"
                       >
@@ -3073,7 +3085,7 @@ export default function Home() {
 
         {/* <FeaturesSection /> */}
         <AboutSection />
-        
+
         {/* Leaderboard Section */}
         <section id="leaderboard" className="py-20 bg-gray-50">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -3095,7 +3107,7 @@ export default function Home() {
                   <CardContent className="p-8 text-center">
                     <Trophy className="w-16 h-16 text-gray-300 mx-auto mb-4" />
                     <p className="text-lg text-gray-500">Belum ada yang submit skor, Ayo Mulai!</p>
-                    <Button 
+                    <Button
                       onClick={() => {
                         const element = document.getElementById('play')
                         if (element) element.scrollIntoView({ behavior: 'smooth' })
@@ -3214,7 +3226,7 @@ export default function Home() {
               {currentQuestion.options.map((option, index) => {
                 const isCorrect = index === currentQuestion.correctAnswer
                 const isSelected = index === selectedAnswer
-                
+
                 return (
                   <Button
                     key={index}
@@ -3243,7 +3255,7 @@ export default function Home() {
   }
 
   if (gameState === 'results') {
-    const accuracy = gameStats.totalQuestions > 0 
+    const accuracy = gameStats.totalQuestions > 0
       ? Math.round((gameStats.correctAnswers / gameStats.totalQuestions) * 100)
       : 0
 
@@ -3305,14 +3317,14 @@ export default function Home() {
 
               {/* Action Buttons */}
               <div className="space-y-3">
-                <Button 
+                <Button
                   onClick={saveToLeaderboard}
                   disabled={!playerName.trim()}
                   className="w-full bg-black text-white py-3 rounded-md hover:bg-gray-800 transition-colors font-medium"
                 >
                   Save to Leaderboard
                 </Button>
-                <Button 
+                <Button
                   onClick={resetGame}
                   variant="outline"
                   className="w-full border border-gray-300 text-black py-3 rounded-md hover:bg-gray-50 transition-colors font-medium"
@@ -3378,7 +3390,7 @@ export default function Home() {
           </div>
 
           <div className="text-center">
-            <Button 
+            <Button
               onClick={resetGame}
               size="lg"
               className="bg-gray-800 hover:bg-gray-900 text-white font-semibold px-8 py-3 rounded-xl"
